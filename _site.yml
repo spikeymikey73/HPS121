@@ -5,8 +5,32 @@ description: |
 output_dir: "docs"
 navbar:
   right:
-    - text: "Home"
+    - text: "Unit Guide"
       href: index.html
-    - text: "Readings"
-      href: readings.html
+    - text: "Reading List"
+      href: Readings.html
+    - text: "Content"
+      menu:
+        - text: "Week 1"
+          href: Week1.html
+        - text: "Week 2"
+          href: Week2.html
+        - text: "Week 3"
+          href: Week3.html
+        - text: "Week 4"
+          href: Week4.html
+        - text: "Week 5"
+          href: Week5.html
+        - text: "Week 6"
+          href: Week6.html
+        - text: "Week 7"
+          href: Week7.html
+        - text: "Week 8"
+          href: Week8.html
+        - text: "Week 9"
+          href: Week9.html
+        - text: "Week 10"
+          href: Week10.html
+        - text: "Week 11"
+          href: Week11.html
 output: distill::distill_article

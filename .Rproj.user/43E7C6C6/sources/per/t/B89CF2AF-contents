@@ -1,0 +1,12 @@
+name: "HSP121"
+title: "HPS121"
+description: |
+  HPS121
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Readings"
+      href: readings.html
+output: distill::distill_article

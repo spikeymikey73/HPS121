@@ -4,17 +4,19 @@ output: distill::distill_article
 ---
 
 Psychodynamic Theory
+	
 	- An investigation into how our life experiences have impacted behaviour
 	- Still used in some form today to examine the interaction of drives and forces within a person and between the different structures of their personality.
 	- Contributors include Freud, Jung, Adler, and Erikson
 
 Basic Assumptions
-	- Behaviour and feelings controlled by unconcious motives.
+	
+	- Behaviour and feelings controlled by unconscious motives.
 	- Childhood experiences are considered the root cause of how we develop as adults and come to see the world.
 	- All behaviour is intentional, even if only at an unconscious level.
 	- Personality = id + ego + superego
 	- ID (Instinctual Drives)
-		- Eros = Sex drive and life instinct
+	  - Eros = Sex drive and life instinct
 		- Thanatos = Aggressive drive and death instinct.
 	- Ego (Conscious Mind)
 	- Unconscious Mind (id and superego) can be in constant conflict with ego
@@ -33,6 +35,7 @@ The superego regulates the adherence to societal norms, and it's purpose is to m
 The relationship between these centres is considered to be the source of inner conflict, and the balance of impulsive behaviour and meeting needs with the expectations of ourselves and society.
 
 Psychosexual Theory
+
 Freud's theory of development consists of 5 stages:
 
 	1. Oral Stage: where the mouth is the primary erogenous zone. Through the acts of feeding and gathering information about their environment. It was considered that the risk of fixation was a risk to improperly cared for infants.
@@ -46,6 +49,7 @@ Freud's theory of development consists of 5 stages:
 	5. Genital Stage: The onset of puberty
 
 Evaluation of the Theory
+
 - Primarily a theoretical construct, lacking empirical evidence.
 - Freud worked primarily with adults in his practice.
 - Almost a pseudo science a dream analysts were able to focus on their own interpretations, through discussion with clients, and refute any views that did not uphold their own.
@@ -53,8 +57,11 @@ Evaluation of the Theory
 Psychosocial Theory (Erikson)
 
 - 8 stages of development from birth to adulthood.
+
 - All stages in a specific order, containing a crisis at each stage. needing resolution before the next stage.
+
 - Failure to resolve the crisis at each stage would effect child's development at late stages.
+
 
 | Developmental Stage              | Developmental Crisis           |
 | -------------------------------- | ------------------------------ |
@@ -96,9 +103,9 @@ Identified by many as being relevant regardless of age, and not being isolated t
 
 Behaviourism (Watson)
 
-Behaviourism Core Concepts:
+**Behaviourism Core Concepts:**
 
-1. â€˜Blank Slate: Children enter the world as a blank slate with ability to learn based on their
+1. The Blank Slate: Children enter the world as a blank slate with ability to learn based on their
 	environment.
 
 2. Behavioural Focus: Concentrates on observable behaviours, and discovery of environmental stimuli responsible.
@@ -107,15 +114,16 @@ Behaviourism Core Concepts:
 
 4. Conditioning: The main process through which we learn.
 
-Pavlovâ€™s dogs: Classical Conditioning
+Pavlov's dogs: Classical Conditioning
 
 Operant Conditioning (Skinner's pigeons)
 
 Social Modelling or Social learning theory (Bandura)
 
-Observation (of consequences), imitation, and modelling as demonstrated via the Bobo doll experiment (modelling and imitation of agression). The experiment found that observations of aggressive behaviour influenced children towards acceptance (TAC ad).
+Observation (of consequences), imitation, and modelling as demonstrated via the Bobo doll experiment (modelling and imitation of aggression). The experiment found that observations of aggressive behaviour influenced children towards acceptance (TAC ad).
 
 Evaluation of behavioural theories
+
 - Empirical approach (Bobo experiment)
 - Attempts to demonstrate cause and effect
 - Neglects rational thought processes.
@@ -133,12 +141,11 @@ Stresses that behaviour is strongly influenced by biology and evolution while al
 
 Charles Darwin's theory of evolution underpins this theory, stating that more than just physical attributes (hair and eye colour) influence us.
 
-
-	- Bioecological Model
+  - Bioecological Model
 	- Life Course theory
 
 Cognitive development theories
-	- Piaget's CDT
-
-	- Sociocultural Theory Development (Vygotsky)
-	- Info processing approach (Siegler)
+  
+  - Piaget's CDT
+  - Sociocultural Theory Development (Vygotsky)
+  - Info processing approach (Siegler)

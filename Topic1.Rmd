@@ -5,22 +5,22 @@ output: distill::distill_article
 
 Psychodynamic Theory
 	
-	- An investigation into how our life experiences have impacted behaviour
-	- Still used in some form today to examine the interaction of drives and forces within a person and between the different structures of their personality.
-	- Contributors include Freud, Jung, Adler, and Erikson
+- An investigation into how our life experiences have impacted behaviour
+- Still used in some form today to examine the interaction of drives and forces within a person and between the different structures of their personality.
+- Contributors include Freud, Jung, Adler, and Erikson
 
 Basic Assumptions
 	
-	- Behaviour and feelings controlled by unconscious motives.
-	- Childhood experiences are considered the root cause of how we develop as adults and come to see the world.
-	- All behaviour is intentional, even if only at an unconscious level.
-	- Personality = id + ego + superego
-	- ID (Instinctual Drives)
-	  - Eros = Sex drive and life instinct
-		- Thanatos = Aggressive drive and death instinct.
-	- Ego (Conscious Mind)
-	- Unconscious Mind (id and superego) can be in constant conflict with ego
-	- Instinctual drives are altered at different times during childhood, which then contribute towards shaping our personality.
+- Behaviour and feelings controlled by unconscious motives.
+- Childhood experiences are considered the root cause of how we develop as adults and come to see the world.
+- All behaviour is intentional, even if only at an unconscious level.
+- Personality = id + ego + superego
+- ID (Instinctual Drives)
+  - Eros = Sex drive and life instinct
+	- Thanatos = Aggressive drive and death instinct.
+- Ego (Conscious Mind)
+- Unconscious Mind (id and superego) can be in constant conflict with ego
+- Instinctual drives are altered at different times during childhood, which then contribute towards shaping our personality.
 
 Sigmund Freud (1856-1939)
 
@@ -38,15 +38,15 @@ Psychosexual Theory
 
 Freud's theory of development consists of 5 stages:
 
-	1. Oral Stage: where the mouth is the primary erogenous zone. Through the acts of feeding and gathering information about their environment. It was considered that the risk of fixation was a risk to improperly cared for infants.
+1. Oral Stage: where the mouth is the primary erogenous zone. Through the acts of feeding and gathering information about their environment. It was considered that the risk of fixation was a risk to improperly cared for infants.
 
-	2. Anal Stage: The child derives pleasure from the expulsion of waste. Threats to development here through a lack of control are thought to explain anal retentive (neat), or anal expensive (messy) personality traits.
+2. Anal Stage: The child derives pleasure from the expulsion of waste. Threats to development here through a lack of control are thought to explain anal retentive (neat), or anal expensive (messy) personality traits.
 
-	3. Phallic Stage: This stage points to the child becoming aware of their genitals, and gave rise to Freud's explanation of the Oedipus Complex. It was also considered only to effect boys. The Electra Complex was a postulated theory refuted by Freud.
+3. Phallic Stage: This stage points to the child becoming aware of their genitals, and gave rise to Freud's explanation of the Oedipus Complex. It was also considered only to effect boys. The Electra Complex was a postulated theory refuted by Freud.
 
-	4. Latency Period: Period from 6 years old to puberty where focus is aimed at a child's need to play and interact with same sense peers.
+4. Latency Period: Period from 6 years old to puberty where focus is aimed at a child's need to play and interact with same sense peers.
 
-	5. Genital Stage: The onset of puberty
+5. Genital Stage: The onset of puberty
 
 Evaluation of the Theory
 
@@ -131,21 +131,23 @@ Evaluation of behavioural theories
 - Demonstration of hostile more likely to develop a hostile bias in future interactions.
 - Some suggest that the setting is artificial. Demonstrating behaviours that were thought to be expected.
 - Fails to determine if behaviours would be generalised in other scenarios.
-- Primary focus on environmental factors, ignoring genetic disposition, rex based neurological differences.
+- Primary focus on environmental factors, ignoring genetic disposition, sex based neurological differences.
 
 
-Environment
+**Environment**
 
 Ethological Theory
+
 Stresses that behaviour is strongly influenced by biology and evolution while also being mediated by sensitive periods. Emotions and thinking is heavily influenced by inherited factors.
 
 Charles Darwin's theory of evolution underpins this theory, stating that more than just physical attributes (hair and eye colour) influence us.
 
-  - Bioecological Model
-	- Life Course theory
+- Bioecological Model
+- Life Course theory
 
 Cognitive development theories
+
+- Piaget's CDT
+- Sociocultural Theory Development (Vygotsky)
+- Info processing approach (Siegler)
   
-  - Piaget's CDT
-  - Sociocultural Theory Development (Vygotsky)
-  - Info processing approach (Siegler)

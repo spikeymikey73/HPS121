@@ -1,7 +1,7 @@
-name: "HSP121"
-title: "Introduction to Psychology B: Individual and Social Development"
+name: "HPS121"
+title: "HPS121"
 description: |
-  HPS121
+  Introduction to Psychology B: Individual and Social Development
 output_dir: "docs"
 navbar:
   right:

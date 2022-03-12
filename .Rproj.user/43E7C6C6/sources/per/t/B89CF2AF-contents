@@ -1,5 +1,5 @@
 name: "HSP121"
-title: "HPS121"
+title: "Introduction to Psychology B: Individual and Social Development"
 description: |
   HPS121
 output_dir: "docs"
@@ -11,26 +11,16 @@ navbar:
       href: Readings.html
     - text: "Content"
       menu:
-        - text: "Week 1"
-          href: Week1.html
-        - text: "Week 2"
-          href: Week2.html
-        - text: "Week 3"
-          href: Week3.html
-        - text: "Week 4"
-          href: Week4.html
-        - text: "Week 5"
-          href: Week5.html
-        - text: "Week 6"
-          href: Week6.html
-        - text: "Week 7"
-          href: Week7.html
-        - text: "Week 8"
-          href: Week8.html
-        - text: "Week 9"
-          href: Week9.html
-        - text: "Week 10"
-          href: Week10.html
-        - text: "Week 11"
-          href: Week11.html
+        - text: "Developmental Psychology"
+          href: Topic1.html
+        - text: "Personality"
+          href: Topic2.html
+        - text: "Psychological Disorders"
+          href: Topic3.html
+        - text: "Topic 4"
+          href: Topic4.html
+        - text: "Topic 5"
+          href: Topic5.html
+        - text: "Topic 6"
+          href: Topic6.html
 output: distill::distill_article

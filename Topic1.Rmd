@@ -42,7 +42,8 @@ Watson (1913) coined the term ‘behaviourism’, which is a theory assuming tha
 ```{r}
 mermaid("
 graph LR
-    A(Stimuli) --> B(Responses) --> C(Consequences)
+    A[Stimuli] --> B[Responses] 
+    B --> C[Consequences]
 ")
 ```
 
@@ -74,18 +75,13 @@ Examples of behaviourism include: Pavlov's dogs (Classical Conditioning), Skinne
 - Primary focus on environmental factors, ignoring genetic disposition, sex based neurological differences.
 
 ### Ethological Theory
+(Darwin, Tinbergen, Burkhardt, Lorenz, Hinde, Ramey & Ramey)
 
+Stresses that behaviour is strongly influenced by biology and evolution while also being mediated by sensitive periods. Emotions and thinking are heavily influenced by inherited factors. Charles Darwin's theory of evolution underpins this theory, stating that more than just physical attributes (hair and eye colour) influence us.
 
-**Evaluation of Ethological Theory**
+Also Posits that the selective pressures of an environment govern the development of the individual's traits and behaviour, rather than genetic make up. With a basis in Darwin's theory of natural selection, this theory originates in the observation of animals in their natural habitat rather than a lab. Others (Lorenz) in this field observed a critical period of development characterised by **imprinting** in animals, adapted to be known as a **sensitive period** in humans.
 
-
-### Ecological Theory
-
-Stresses that behaviour is strongly influenced by biology and evolution while also being mediated by sensitive periods. Emotions and thinking is heavily influenced by inherited factors.
-
-Charles Darwin's theory of evolution underpins this theory, stating that more than just physical attributes (hair and eye colour) influence us.
-
-**Evaluation of Ecological Theory**
+### Bioecological Theory (Bronfenbrenner)
 
 
 ### Life Course Theory

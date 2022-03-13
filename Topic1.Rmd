@@ -3,6 +3,11 @@ title: "Topic 1: Developmental Psychology"
 output: distill::distill_article
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(DiagrammeR)
+```
+
 ## Psychosocial Theory (Erikson)
 
 - 8 stages of development from birth to adulthood.
@@ -30,7 +35,18 @@ output: distill::distill_article
 - The teen crisis was used to refer to the sensitivity of developmental meds at each stage, rather than a catastrophic event.
 - Emphasises the role of psycological and social influence a development throughout a lifetime.
 
-## Behaviourism
+## Behaviourism (Learning Theories)
+
+Watson (1913) coined the term ‘behaviourism’, which is a theory assuming that behaviour is observable and can be traced back to other observable events. The goal of Behaviourism is to explain relationships between:
+
+```{r}
+mermaid("
+graph LR
+    A(Stimuli) --> B(Responses) --> C(Consequences)
+")
+```
+
+Identified by many as being relevant regardless of age, and not being isolated to a particular "stage". The focus instead, is on stimulus/response and looking for predictable patterns of behaviour.
 
 ### Core Concepts:
 
@@ -43,23 +59,12 @@ output: distill::distill_article
 
 4. Conditioning: The main process through which we learn.
 
-Pavlov's dogs: Classical Conditioning
 
-Operant Conditioning (Skinner's pigeons)
-
-Social Modelling or Social learning theory (Bandura)
-
-Observation (of consequences), imitation, and modelling as demonstrated via the Bobo doll experiment (modelling and imitation of aggression). The experiment found that observations of aggressive behaviour influenced children towards acceptance (TAC ad).
-
-Behavioural (learning)Theories
-
-Identified by many as being relevant regardless of age, and not being isolated to a particular "stage". The focus instead, is on stimulus/response and looking for predictable patterns of behaviour.
-
-Behaviourism (Watson)
+Examples of behaviourism include: Pavlov's dogs (Classical Conditioning), Skinner's Pigeons (Operant Conditioning) and Bandura's Social Modelling or Social learning theory (Bobo Doll). The observation (of consequences), imitation, and modelling as demonstrated via the Bobo doll experiment (modelling and imitation of aggression). The experiment found that observations of aggressive behaviour influenced children towards acceptance of behaviours.
 
 **Evaluation of behavioural theories**
 
-- Empirical approach (Bobo experiment)
+- Empirical approach
 - Attempts to demonstrate cause and effect
 - Neglects rational thought processes.
 - Does not address behaviours that are present in the absence of conditioning.

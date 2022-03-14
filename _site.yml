@@ -1,7 +1,6 @@
 name: "HPS121"
 title: "HPS121"
-description: |
-  Introduction to Psychology B: Individual and Social Development
+description: "Introduction to Psychology B: Individual and Social Development"
 output_dir: "docs"
 navbar:
   right:
@@ -23,4 +22,5 @@ navbar:
           href: Topic5.html
         - text: "Topic 6"
           href: Topic6.html
-output: distill::distill_article
+output:
+  html_document

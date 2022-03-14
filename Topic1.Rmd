@@ -1,12 +1,9 @@
 ---
 title: "Topic 1: Developmental Psychology"
-output: distill::distill_article
+description: "HPS121 - Introduction to Psychology B: Individual and Social Development"
+html_document:
+    theme: yeti
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-library(DiagrammeR)
-```
 
 ## Psychosocial Theory (Erikson)
 
@@ -18,14 +15,14 @@ library(DiagrammeR)
 
 
 | Developmental Stage              | Developmental Crisis           | Description of Crisis |
-| -------------------------------- | ------------------------------ |-----------------------|
-| Birth - 1 year                   | Trust Vs Mistrust              | Development of trust as a consequence of treatment. |
+| :-------------------------------- | :------------------------------ | :-------------------------------------------------------|
+| Birth - 1 year                   | Trust vs Mistrust              | Development of trust as a consequence of treatment. |
 | 1 - 3 years                      | Autonomy vs Shame              | Learning to negotiate with parents to have needs and wants met. Development of a sense of independence. |
 | 3 - 6 years                      | Initiative vs Guilt            | Learning how to play with others, lead and follow, as opposed to prevention from joining in through guilt or fear. |
 | 6 years to adolescence           | Industry vs Inferiority        | Building of skills around play and obeying rules. Mastery of social skills, and self discipline. A mistrusting child will develop defeat and inferiority. |
 | Adolescence (10 - 20 years)      | Identity vs Identity Diffusion | Children experiment with defiance and rule breaking. Also the time when a child will develop their sense of self and identity. |
 | Young Adulthood (20 - 40 years)  | Intimacy vs Isolation          | A period of building long standing friendships and relationships. |
-| Middle Adulthood (40 - 60 years) | Gernerativity vs Stagnation    | Becoming productive in society and setting an example for future generations. Developing interest in parenthood. |
+| Middle Adulthood (40 - 60 years) | Generativity vs Stagnation    | Becoming productive in society and setting an example for future generations. Developing interest in parenthood. |
 | Old Age (60+ years)              | Integrity vs Despair           | Acknowledgement of prior achievement of the other stages and the recognition of integrity, as opposed to despair should one or more of the crises at previous stages not be resolved. |
 
 ### Evaluation of Psychosocial Theory
@@ -37,15 +34,7 @@ library(DiagrammeR)
 
 ## Behaviourism (Learning Theories)
 
-Watson (1913) coined the term ‘behaviourism’, which is a theory assuming that behaviour is observable and can be traced back to other observable events. The goal of Behaviourism is to explain relationships between:
-
-```{r}
-mermaid("
-graph LR
-    A[Stimuli] --> B[Responses] 
-    B --> C[Consequences]
-")
-```
+Watson (1913) coined the term ‘behaviourism’, which is a theory assuming that behaviour is observable and can be traced back to other observable events. The goal of Behaviourism is to explain relationships between stimuli, responses and concequences.
 
 Identified by many as being relevant regardless of age, and not being isolated to a particular "stage". The focus instead, is on stimulus/response and looking for predictable patterns of behaviour.
 
@@ -83,25 +72,38 @@ Also Posits that the selective pressures of an environment govern the developmen
 
 ### Bioecological Theory (Bronfenbrenner)
 
+The Bioecological model focusses on individual development within a set of overlapping ecological systems. These systems influence the individual together as he/she develops.
+
+1. Microsystem: Immediate social groups such as family, school, work and peers.
+2. Mesosystem: The connection/interaction of 2 microsystems (parent/teacher interviews, birthday party, etc)
+3. Exosystem: Systems not requiring direct involvement which still exert an influence on the individual, such as newspapers, media, TV.
+4. Macrosystem: Overarching systems which govern day to day lives, such as local council, state government, economy, culture.
+
+The later addition of the Chronosystem addressed the influence of time to both historical events (war, recession, etc) and the timing of life events (puberty, having children, getting married)
+
 
 ### Life Course Theory
 
+Four key concepts:
 
-**Evaluation of Life Course Theory**
+1. _Human lives situated in historical time and place_
+    - _Cohort Effect:_ Posits that the effects of an event can influence the development of members across different birth cohorts in different ways.
+    - _Period Effect:_ A historical event can influence the development of individuals across differing birth cohorts in a similar way.
 
+2. _Developmental Studies must pay attention to the time of our lives_
+    - Social roles and events can define our behaviours based on the period of our lives in which they occur. (e.g. teen mum vs 30 something mum)
 
+3. _Human lives are interdependant and linked_
+    - Connections with care givers and others significantly inform later relationships.
 
+4. _Humans have the ability to make decisions and change our lives_
+    - Our own decision making processes and choice of behaviour can impact the direction and pace of our development.
 
+> Bronfenbrenner's theory focussed on the individual.
+>
+> Elder's theory focussed on social environments.
 
-
-
-
-
-
-**Environment**
-
-- Bioecological Model
-- Life Course theory
+***
 
 Cognitive development theories
 

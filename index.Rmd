@@ -1,8 +1,8 @@
 ---
 title: "Unit Schedule"
-description: |
-  HPS121 - Introduction to Psychology B: Individual and Social Development
-site: distill::distill_website
+description: "HPS121 - Introduction to Psychology B: Individual and Social Development"
+html_document:
+    theme: yeti
 ---
 
 | Week | Commencing | Topic | Special Learning Activities | Assessment Due Date |

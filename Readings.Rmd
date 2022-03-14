@@ -1,7 +1,8 @@
 ---
 title: "Reading List"
-description: |
-  HPS121 - Introduction to Psychology: Individual and Social Development
+description: "HPS121 - Introduction to Psychology: Individual and Social Development"
+html_document:
+    theme: yeti
 ---
 
 | Topic	| Title	| Notes |

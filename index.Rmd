@@ -6,6 +6,8 @@ output:
   html_document
 ---
 
+***
+
 | Week | Commencing | Topic | Special Learning Activities | Assessment Due Date |
 |------|------------|-------|-----------------------------|---------------------|
 | 1 | 7 Mar 22 | Human Development | Class 1: Developmental Psychology<br />Seminar 1: Lab Report (Assessing the core readings) | 

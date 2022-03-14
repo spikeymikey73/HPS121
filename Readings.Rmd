@@ -5,6 +5,8 @@ output:
   html_document
 ---
 
+***
+
 | Topic	| Title	| Notes |
 |-------|-------|-------|
 | Prescribed | [How to write psychology research reports and assignments](http://resourcelists.lib.deakin.edu.au/items/345bc52c-6b11-4870-bdb1-7740b0b47899.html) | |

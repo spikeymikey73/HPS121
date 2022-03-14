@@ -1,8 +1,9 @@
 ---
+name: "HPS121"
 title: "Unit Schedule"
 description: "HPS121 - Introduction to Psychology B: Individual and Social Development"
-html_document:
-    theme: yeti
+output:
+  html_document
 ---
 
 | Week | Commencing | Topic | Special Learning Activities | Assessment Due Date |

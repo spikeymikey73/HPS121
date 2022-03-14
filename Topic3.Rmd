@@ -1,6 +1,8 @@
 ---
 title: "Topic 3: Psychological Disorders"
-output: distill::distill_article
+description: "HPS121 - Introduction to Psychology B: Individual and Social Development"
+output:
+  html_document
 ---
 
 ```{r setup, include=FALSE}

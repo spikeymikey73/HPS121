@@ -1,8 +1,8 @@
 ---
 title: "Topic 1: Developmental Psychology"
 description: "HPS121 - Introduction to Psychology B: Individual and Social Development"
-html_document:
-    theme: yeti
+output:
+  html_document
 ---
 
 ## Psychosocial Theory (Erikson)
@@ -11,7 +11,7 @@ html_document:
 
 - All stages in a specific order, containing a crisis at each stage. needing resolution before the next stage.
 
-- Failure to resolve the crisis at each stage would effect child's development at late stages.
+- Failure to resolve the crisis at each stage would effect child's development at later stages.
 
 
 | Developmental Stage              | Developmental Crisis           | Description of Crisis |

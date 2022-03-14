@@ -85,11 +85,13 @@ Also Posits that the selective pressures of an environment govern the developmen
 The Bioecological model focusses on individual development within a set of overlapping ecological systems. These systems influence the individual together as he/she develops.
 
 1. Microsystem: Immediate social groups such as family, school, work and peers.
-2. Mesosystem: The connection/interaction of 2 microsystems (parent/teacher interviews, birthday party, etc)
+2. Mesosystem: The connection/interaction of 2 micro systems (parent/teacher interviews, birthday party, etc..)
 3. Exosystem: Systems not requiring direct involvement which still exert an influence on the individual, such as newspapers, media, TV.
 4. Macrosystem: Overarching systems which govern day to day lives, such as local council, state government, economy, culture.
 
-The later addition of the Chronosystem addressed the influence of time to both historical events (war, recession, etc) and the timing of life events (puberty, having children, getting married)
+The later addition of the Chronosystem addressed the influence of time to both historical events (war, recession, etc.) and the timing of life events (puberty, having children, getting married)
+
+![Bioecological Theory](Images/Topic1/Bronfenbrenner.webp)
 
 
 ####  Life Course Theory

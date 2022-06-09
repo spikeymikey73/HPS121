@@ -1,6 +1,5 @@
 ---
 title: "Topic 1: Developmental Psychology"
-description: "HPS121 - Introduction to Psychology B: Individual and Social Development"
 output: html_document
 ---
 

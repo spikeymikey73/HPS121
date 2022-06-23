@@ -105,4 +105,21 @@ Somatic symptom and related disorders involve physical complaints or disabilitie
 
 #### Dissociative Disorders
 
-Are characterised by a disruption of and/or discontinuity in the normal integration of consciousness, memory, identity, emotion, perception, body representation, motor control and behaviour.
+Are characterised by a disruption of and/or discontinuity in the normal integration of consciousness, memory, identity, emotion, perception, body representation, motor control and behaviour. In other words these disorders are characterised by a breakdown in the normal integration of personality traits and qualities, such examples are:
+
+-   Dissociative Amnesia
+-   Dissociative Identity Disorder (DID)
+-   Depersonalisation/Derealisation Disorder
+  
+#### Culture and Dissociative Disorders
+
+-   Focus on the self (as with DID), which is constructed largely through our culture/s
+-   Generally more common in Western cultures
+-   Research into this area is still in its infancy
+-   Voluntary experiences of depersonalisation/derealisation through meditation practices in some cultures
+-   Some cultures can view this as an experience of possession by a spirit.
+
+### LO5: Describe the symptoms associated with depression and bipolar disorder, and outline the typical course and causal factors.
+
+<span>Major Depressive Disorder</span> is an intense state of dysphoria and/or lack of ability to feel positive emotion (<span>anhedonia</span>), leaving a person unable to function effectively in their life.
+

@@ -222,11 +222,11 @@ A <span>personality disorder</span> is an enduring pattern of inner experience a
     +   Five broad personality domains
 -   Personality disorders are then considered as the extent to which an individual demonstrates the two main facets and trait domains.
 
-### Describe the childhood neurodevelopmental disorders and underlying causal factors associated with each.
+### LO8: Describe the childhood neurodevelopmental disorders and underlying causal factors associated with each.
 
 <span>Neurodevelopmental Disorders</span> are characterised by neurodevelopmental deficits that are known to always manifest at an early age, usually before or just after the child enters school, and interfere with the child's personal, social, or academic functioning.
 
-#### <span>Examples of Neurodevelopmental Disorders</span>
+##### <span>Examples of Neurodevelopmental Disorders</span>
 
 -   Intellectual Development Disorder
 -   Communication Disorders
@@ -242,5 +242,35 @@ Involves two main domains:
 -   Difficulties in social interactions
 -   A pattern of repetitive behaviours, interests and activities
 
-#### <span>Proposed Causal Factors for ASD</span>
+##### <span>Proposed Causal Factors for ASD</span>
 
+-   Biological: genetics, anomalies in brain structure and functioning
+-   Psychological: <abbr title="The understanding that others have unique beliefs and desires that are different from our own, helping us attribute these characteristics to others.">Theory of Mind</abbr>
+-   There is no link between vaccinations and autism.
+
+#### <span>Attention-Deficit Hyperactivity Disorder (ADHD)</span>
+
+-   Defined by impairing of skills such as inattention, disorganisation, and/or hyperactivity and impulsivity.
+-   Causal factors are largely unknown, but are thought to be affected by genetic and environmental factors.
+
+### LO9: Critically evaluate the consequences of diagnostic labelling for the people that receive them, and consider the potential personal, social and legal consequences.
+
+#### <span>Diagnostic Labels</span>
+
+-   An assumption that all people with a particular disorder are largely the same in the underlying character of a disorder.
+-   Diagnostic labels serve multiple purposes:
+    -   Allowing clinicians to process a lot of information
+    -   Making it easier to communicate about patients (describing symptoms and prognosis, as well as <abbr title="the cause, set of causes or manner of causation of a disease or condition">aetiology</abbr> and treatment)
+
+#### <span>Social and Personal Consequences</span>
+
+-   Can be difficult to separate the person and their behaviour
+-   May stick even after the person is no longer affected by the disorder
+-   Self-fulfilling prophecy (adopting behaviours attributed to a disorder that may not already be exhibited).
+-   Stigma, shame or guilt that may prevent a patient from seeking treatmentor resolution.
+
+#### <span>Legal Consequences</span>
+
+-   Involuntary hospitalisation
+-   If accused of a crime, the defendant may be deemed "not competent to stand trial" and hospitalised until deemed competent.
+-   Deemed as "defensive mental impairment" (Australian version of "not guilty by reason of insanity")

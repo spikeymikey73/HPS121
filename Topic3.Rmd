@@ -7,9 +7,8 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-
-library(tippy)
 ```
+
 ### LO1: Consider how the three D’s inform our understanding of what is ‘abnormal’, and outline the diagnostic manuals used to classify and categorise psychological disorders.
 
 #### <span><span>What is abnormal?</span>
@@ -222,3 +221,26 @@ A <span>personality disorder</span> is an enduring pattern of inner experience a
     +   Disturbances in interpersonal functioning
     +   Five broad personality domains
 -   Personality disorders are then considered as the extent to which an individual demonstrates the two main facets and trait domains.
+
+### Describe the childhood neurodevelopmental disorders and underlying causal factors associated with each.
+
+<span>Neurodevelopmental Disorders</span> are characterised by neurodevelopmental deficits that are known to always manifest at an early age, usually before or just after the child enters school, and interfere with the child's personal, social, or academic functioning.
+
+#### <span>Examples of Neurodevelopmental Disorders</span>
+
+-   Intellectual Development Disorder
+-   Communication Disorders
+-   Neurodevelopmental Motor Disorders
+-   Specific Learning Disorders
+-   Autism Spectrum Disorder (ASD)
+-   Attention-Deficit Hyperactivity Disorder (ADHD)
+
+#### <span>Autism Spectrum Disorder (ASD)</span>
+
+Involves two main domains:
+
+-   Difficulties in social interactions
+-   A pattern of repetitive behaviours, interests and activities
+
+#### <span>Proposed Causal Factors for ASD</span>
+

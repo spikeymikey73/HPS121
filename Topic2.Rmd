@@ -3,17 +3,131 @@ title: "Topic 2: Personality"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+## The Psychodynamic Perspective
 
-***
+- Psychodynamic perspective is a psychological approach that originated from the work of Sigmund Freud.
+- It focuses on unconscious processes and the impact of childhood experiences on the development of adult personality.
+- It has evolved over time and now includes theories like object relations and neuropsychoanalysis.
+- While some psychodynamic concepts have been supported by empirical evidence, others are still controversial and the approach continues to influence various areas of modern psychology.
 
-Distill is a publication format for scientific and technical writing, native to the web. 
+## Introduction
 
-Learn more about using Distill for R Markdown at <https://rstudio.github.io/distill>.
+- The psychodynamic perspective on personality, originated from the work of Sigmund Freud, emphasizes unconscious psychological processes (such as wishes and fears) and the impact of childhood experiences on adult personality.
+- This perspective has been both influential and controversial, with some of its concepts being supported by empirical evidence while others are not.
+- The psychodynamic theory continues to play an important role in psychology and many related disciplines, such as developmental psychology, social psychology, sociology, and neuroscience.
+- The theory has evolved over time and now includes innovative approaches such as object relations theory and neuropsychoanalysis.
+- In the context of personality, psychodynamic theory can help one understand why they may do things that don't make sense, by exploring unconscious thoughts and emotions.
+
+## Core Assumptions of the Psychodynamic Perspective {.tabset}
+
+The core assumptions of the psychodynamic framework are unique from the componenets of other personality ideas.
+
+### 1. Primacy of the Unconscious
+
+- The perspective on unconscious psychological processes is a central aspect of psychodynamic theory.
+- The idea is that unconscious thoughts, feelings, and impulses influence our behaviour, even though we may not be aware of them.
+- For example, a person may have unconscious fears or desires that drive their behaviour, even if they don't consciously understand what is motivating them.
+- Psychoanalytic therapy aims to bring these unconscious processes to consciousness, where they can be better understood and addressed.
+- The belief in the importance of unconscious psychological processes continues to be a defining feature of the psychodynamic perspective on personality.
+
+### 2. Critical Importance of Early Experiences
+
+- The psychodynamic theory holds that childhood experiences and unconscious psychological processes play a crucial role in shaping adult personality.
+- According to this perspective, early childhood experiences, including even those that occur in the first few weeks or months of life, can have a lasting impact on a person's personality development and dynamics.
+- The emphasis on early childhood events sets the psychodynamic theory apart from other models of personality development, which also consider early experiences but do not place as much emphasis on their impact.
+- The theory also posits that experiences outside the normal range, such as the loss of a parent or sibling at an early age, can have a particularly strong impact on personality development.
+
+### 3. Psychic Causality {-}
+
+- The third core assumption of psychodynamic theory is that nothing in mental life happens by chance—that there is no such thing as a random thought, feeling, motive, or behaviour.
+- This has come to be known as the *principle of psychic causality*, and though few psychologists accept the principle of psychic causality precisely as psychoanalysts conceive it, most theorists and researchers agree that thoughts, motives, emotional responses, and expressed behaviours do not arise randomly, but always stem from some combination of identifiable biological and psychological processes (Elliott, 2002; Robinson & Gordon, 2011).
+
+## The Evolution of Psychodynamic Theory {.tabset}
+
+- Freud’s background in neurology is the basis for the first incarnation of psychoanalytic theory being regarded as primarily biological.
+- Freud set out to explain psychological phenomena in terms that could be linked to neurological functioning as it was understood in his day.
+- Because Freud’s work in this area evolved over more than 50 years (he began in 1885, and continued until he died in 1939), there were numerous revisions along the way.
+- Thus, it is most accurate to think of psychodynamic theory as a set of interrelated models that complement and build upon each other.
+- Three are particularly important: the topographic model, the psychosexual stage model, and the structural model.
+
+### The Topographic Model
+
+- The topographic model describes the unconscious, preconscious, and conscious as different regions of the mind.
+- The unconscious is seen as the largest (and most primitive, and controversial) part of the psyche, contains all the instinctual drives, repressed material, and anxiety-producing material (such as sexual impulses and aggressive urges) that are deliberately repressed, meaning they are kept outside of conscious awareness as a form of self-defence because they make you uncomfortable.
+- The preconscious is a more advanced part of the mind, which contains thoughts and feelings that are not currently in conscious awareness but can be brought to consciousness if needed.
+- The conscious is the smallest part of the mind and contains all the thoughts, feelings, and experiences that are currently in awareness.
+- The idea of the unconscious mind continues to be debated in psychology, with some researchers finding evidence for its existence and others believing that unconscious processing can be explained without it.
+- The terms conscious, preconscious, and unconscious continue to be used today and research has provided some support for Freud’s thoughts regarding conscious and preconscious processing.
+- However, the idea of a Freudian unconscious repository of repressed wishes and impulses remains controversial.
+
+### The Psychosexual Stage Model
+
+- The psychosexual stage model proposed by Freud in 1905 argues that human personality development progresses through a sequence of stages (driven by sexual and aggressive energy (libido)), each with its own unique challenge and mode of sexual gratification from infancy to adulthood.
+- The stages are oral, anal, Oedipal, latency, and genital. Fixation at a particular stage due to frustration or over gratification is thought to result in a dependent (oral), controlling (anal), or aggressive/competitive (Oedipal) personality style.
+- Each stage is marked by the appearance of a new erogenous zone (an area of the body that is particularly sensitive to sexual stimulation) and is associated with a specific conflict that must be resolved.
+- According to the model, if the individual experiences trauma or fixates at any of the stages, this can result in the development of certain personality traits and psychological disorders.
+- The psychosexual stage model and its relationship to personality development remain a significant part of psychoanalytic theory.
+
+### The Structural Model
+
+- The structural model describes the psyche as consisting of three parts: the id, the ego, and the superego.
+- The id is the unconscious part of the psyche that is driven by instinctual drives and impulses.
+- The ego is the conscious part of the psyche that mediates between the impulses of the id and the demands of reality.
+- The superego is the moral component of the psyche, which internalizes the values and norms of society and provides a sense of right and wrong.
+- According to the structural model, the dynamic interplay between the id, ego, and superego results in the development of the individual’s personality and behaviour.
+
+### The Ego and its Defences {-}
+
+Common Ego Defences in Psychodynamic Theory
+
+- *Repression*: The unconscious removal of upsetting thoughts and feelings from conscious awareness. Example: A person blocks out memories of childhood abuse.
+- *Denial*: The conscious ignoring the implications of a painful event. Example: A person with a substance abuse problem says "I'm fine—even though people complain about my drinking, I never miss a day of work."
+- *Projection*: Attributing one's own unacceptable thoughts or feelings to others. Example: A person who has aggressive impulses accuses others of being hostile.
+- *Displacement*: Shifting one's emotional responses from a threatening target to a less threatening substitute. Example: A person who is angry with their boss takes out their frustration on their spouse.
+- *Regression*: Reverting to an earlier stage of development in response to stress. Example: An adult who is feeling overwhelmed may start sucking their thumb.
+- *Rationalization*: Offering self-justifying explanations in place of the real reasons for one's behavior. Example: A person who was fired for poor performance says that the job wasn't a good fit for them anyway.
+- *Sublimation*: Channelling unacceptable impulses into socially acceptable behavior. Example: A person who has aggressive impulses becomes a professional boxer.
+- These are just a few of the many ego defenses that have been identified in psychodynamic theory. The use of these defences is seen as a way for the ego to manage anxiety and protect itself from stress, but at the same time, they can also lead to the distorting of reality and the perpetuation of problematic behavior patterns.
+
+
+## Psychodynamic Theories: Where Are We Now? {.tabset}
+
+Empirical Testing of Psychodynamic Concepts: Research has been conducted to empirically test psychodynamic concepts and theories, such as the concept of transference, the role of unconscious processes in personality, and the effects of childhood experiences on adult behavior. This research has provided some support for psychodynamic concepts, but it has also led to modifications and revisions of these concepts.
+
+Psychoanalysis and Culture: The influence of culture on psychoanalytic theory has been recognized and studied. Cultural values, beliefs and norms can shape the way psychoanalytic concepts are understood and applied.
+
+Neuroscience and Psychodynamics: Advances in neuroimaging and neuropsychology have opened up new opportunities to explore the relationship between brain and behavior, and the role of unconscious mental processes in personality. However, the relationship between psychodynamics and neuroscience is still being explored, and the field continues to face challenges in integrating these two perspectives.
+
+### Object Relations Theory and the Growth of the Psychodynamic Perspective
+
+- This perspective focuses on the role of early childhood relationships in shaping personality and shaping adult relationships. It emphasizes the importance of the child’s experience of being loved, understood and emotionally connected to important caretakers.
+- According to this theory, a child's relationship with his or her parents is crucial to the formation of self-esteem and the capacity for healthy relationships in adulthood.
+- The child's interactions with his or her parents and other significant figures are seen as the building blocks of the child's inner world, including mental representations of self and others, as well as unconscious fantasies, desires, and anxieties.
+- Also emphasizes the importance of the interpersonal context in shaping personality development. This means that relationships, rather than individual factors, are seen as the key drivers of personality development and change.
+- Overall, object relations theory offers a nuanced and sophisticated perspective on the development of personality, recognizing the importance of both early childhood experiences and ongoing relationships in shaping the self and personality.
+
+### Empirical Research on Psychodynamic Theories
+
+- Research has been conducted to empirically test psychodynamic concepts and theories, such as the concept of transference, the role of unconscious processes in personality, and the effects of childhood experiences on adult behavior.
+- This research has provided some support for psychodynamic concepts, but it has also led to modifications and revisions of these concepts.
+- Psychoanalysis and culture is another growing area of interest in contemporary psychodynamic theory.
+- Psychoanalysis has always been concerned with the role of culture in shaping personality, but it has historically focused on the influence of the cultural forces (such as media, religion, politics, and economics) that shape our unconscious desires and conflicts.
+- Today, psychoanalytic research also considers the ways in which culture shapes the way we understand and treat mental illness.
+- In particular, researchers are exploring how cultural and ethnic differences affect the way people experience and express emotions, relationships, and psychological distress.
+- Advances in neuroscience have created new opportunities and challenges for psychodynamic theory. The increasing ability to measure brain activity has created the possibility of gaining new insights into unconscious mental processes, including the workings of the ego, the id, and the superego. However, neuroscience has also created challenges for psychodynamic theory, because it has revealed that some traditional psychoanalytic concepts, such as the notion that the unconscious is inaccessible to conscious awareness, may be too simplistic (Kihlstrom, 2010). Nonetheless, the integration of psychodynamic theory with neuroscience has the potential to advance our understanding of mental processes, personality development, and the treatment of psychological disorders.
+
+### Psychoanalysis and Culture
+
+The influence of culture on psychoanalytic theory has been recognized and studied. Cultural values, beliefs and norms can shape the way psychoanalytic concepts are understood and applied.
+
+### Neuroscience and Psychodynamics
+
+Advances in neuroimaging and neuropsychology have opened up new opportunities to explore the relationship between brain and behavior, and the role of unconscious mental processes in personality. However, the relationship between psychodynamics and neuroscience is still being explored, and the field continues to face challenges in integrating these two perspectives.
+
+### The Opportunities and Challenges of Neuroscience
 
 
 
+### Looking Ahead: Psychodynamic Theory in the 21st Century (and Beyond)
 
 

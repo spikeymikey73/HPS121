@@ -13,7 +13,7 @@
 
 <title>Topic 2: Personality</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -141,11 +141,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -174,8 +178,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -183,16 +187,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -295,12 +292,286 @@ $(document).ready(function () {
 </div>
 
 
-<hr />
-<p>Distill is a publication format for scientific and technical writing,
-native to the web.</p>
-<p>Learn more about using Distill for R Markdown at <a
-href="https://rstudio.github.io/distill"
-class="uri">https://rstudio.github.io/distill</a>.</p>
+<div id="the-psychodynamic-perspective" class="section level2">
+<h2>The Psychodynamic Perspective</h2>
+<ul>
+<li>Psychodynamic perspective is a psychological approach that
+originated from the work of Sigmund Freud.</li>
+<li>It focuses on unconscious processes and the impact of childhood
+experiences on the development of adult personality.</li>
+<li>It has evolved over time and now includes theories like object
+relations and neuropsychoanalysis.</li>
+<li>While some psychodynamic concepts have been supported by empirical
+evidence, others are still controversial and the approach continues to
+influence various areas of modern psychology.</li>
+</ul>
+</div>
+<div id="introduction" class="section level2">
+<h2>Introduction</h2>
+<ul>
+<li>The psychodynamic perspective on personality, originated from the
+work of Sigmund Freud, emphasizes unconscious psychological processes
+(such as wishes and fears) and the impact of childhood experiences on
+adult personality.</li>
+<li>This perspective has been both influential and controversial, with
+some of its concepts being supported by empirical evidence while others
+are not.</li>
+<li>The psychodynamic theory continues to play an important role in
+psychology and many related disciplines, such as developmental
+psychology, social psychology, sociology, and neuroscience.</li>
+<li>The theory has evolved over time and now includes innovative
+approaches such as object relations theory and neuropsychoanalysis.</li>
+<li>In the context of personality, psychodynamic theory can help one
+understand why they may do things that don’t make sense, by exploring
+unconscious thoughts and emotions.</li>
+</ul>
+</div>
+<div id="core-assumptions-of-the-psychodynamic-perspective"
+class="section level2 tabset">
+<h2 class="tabset">Core Assumptions of the Psychodynamic
+Perspective</h2>
+<p>The core assumptions of the psychodynamic framework are unique from
+the componenets of other personality ideas.</p>
+<div id="primacy-of-the-unconscious" class="section level3">
+<h3>1. Primacy of the Unconscious</h3>
+<ul>
+<li>The perspective on unconscious psychological processes is a central
+aspect of psychodynamic theory.</li>
+<li>The idea is that unconscious thoughts, feelings, and impulses
+influence our behaviour, even though we may not be aware of them.</li>
+<li>For example, a person may have unconscious fears or desires that
+drive their behaviour, even if they don’t consciously understand what is
+motivating them.</li>
+<li>Psychoanalytic therapy aims to bring these unconscious processes to
+consciousness, where they can be better understood and addressed.</li>
+<li>The belief in the importance of unconscious psychological processes
+continues to be a defining feature of the psychodynamic perspective on
+personality.</li>
+</ul>
+</div>
+<div id="critical-importance-of-early-experiences"
+class="section level3">
+<h3>2. Critical Importance of Early Experiences</h3>
+<ul>
+<li>The psychodynamic theory holds that childhood experiences and
+unconscious psychological processes play a crucial role in shaping adult
+personality.</li>
+<li>According to this perspective, early childhood experiences,
+including even those that occur in the first few weeks or months of
+life, can have a lasting impact on a person’s personality development
+and dynamics.</li>
+<li>The emphasis on early childhood events sets the psychodynamic theory
+apart from other models of personality development, which also consider
+early experiences but do not place as much emphasis on their
+impact.</li>
+<li>The theory also posits that experiences outside the normal range,
+such as the loss of a parent or sibling at an early age, can have a
+particularly strong impact on personality development.</li>
+</ul>
+</div>
+<div id="psychic-causality" class="section level3 unnumbered">
+<h3 class="unnumbered">3. Psychic Causality</h3>
+<ul>
+<li>The third core assumption of psychodynamic theory is that nothing in
+mental life happens by chance—that there is no such thing as a random
+thought, feeling, motive, or behaviour.</li>
+<li>This has come to be known as the <em>principle of psychic
+causality</em>, and though few psychologists accept the principle of
+psychic causality precisely as psychoanalysts conceive it, most
+theorists and researchers agree that thoughts, motives, emotional
+responses, and expressed behaviours do not arise randomly, but always
+stem from some combination of identifiable biological and psychological
+processes (Elliott, 2002; Robinson &amp; Gordon, 2011).</li>
+</ul>
+</div>
+</div>
+<div id="the-evolution-of-psychodynamic-theory"
+class="section level2 tabset">
+<h2 class="tabset">The Evolution of Psychodynamic Theory</h2>
+<ul>
+<li>Freud’s background in neurology is the basis for the first
+incarnation of psychoanalytic theory being regarded as primarily
+biological.</li>
+<li>Freud set out to explain psychological phenomena in terms that could
+be linked to neurological functioning as it was understood in his
+day.</li>
+<li>Because Freud’s work in this area evolved over more than 50 years
+(he began in 1885, and continued until he died in 1939), there were
+numerous revisions along the way.</li>
+<li>Thus, it is most accurate to think of psychodynamic theory as a set
+of interrelated models that complement and build upon each other.</li>
+<li>Three are particularly important: the topographic model, the
+psychosexual stage model, and the structural model.</li>
+</ul>
+<div id="the-topographic-model" class="section level3">
+<h3>The Topographic Model</h3>
+<ul>
+<li>The topographic model describes the unconscious, preconscious, and
+conscious as different regions of the mind.</li>
+<li>The unconscious is seen as the largest (and most primitive, and
+controversial) part of the psyche, contains all the instinctual drives,
+repressed material, and anxiety-producing material (such as sexual
+impulses and aggressive urges) that are deliberately repressed, meaning
+they are kept outside of conscious awareness as a form of self-defence
+because they make you uncomfortable.</li>
+<li>The preconscious is a more advanced part of the mind, which contains
+thoughts and feelings that are not currently in conscious awareness but
+can be brought to consciousness if needed.</li>
+<li>The conscious is the smallest part of the mind and contains all the
+thoughts, feelings, and experiences that are currently in
+awareness.</li>
+<li>The idea of the unconscious mind continues to be debated in
+psychology, with some researchers finding evidence for its existence and
+others believing that unconscious processing can be explained without
+it.</li>
+<li>The terms conscious, preconscious, and unconscious continue to be
+used today and research has provided some support for Freud’s thoughts
+regarding conscious and preconscious processing.</li>
+<li>However, the idea of a Freudian unconscious repository of repressed
+wishes and impulses remains controversial.</li>
+</ul>
+</div>
+<div id="the-psychosexual-stage-model" class="section level3">
+<h3>The Psychosexual Stage Model</h3>
+<ul>
+<li>The psychosexual stage model proposed by Freud in 1905 argues that
+human personality development progresses through a sequence of stages
+(driven by sexual and aggressive energy (libido)), each with its own
+unique challenge and mode of sexual gratification from infancy to
+adulthood.</li>
+<li>The stages are oral, anal, Oedipal, latency, and genital. Fixation
+at a particular stage due to frustration or over gratification is
+thought to result in a dependent (oral), controlling (anal), or
+aggressive/competitive (Oedipal) personality style.</li>
+<li>Each stage is marked by the appearance of a new erogenous zone (an
+area of the body that is particularly sensitive to sexual stimulation)
+and is associated with a specific conflict that must be resolved.</li>
+<li>According to the model, if the individual experiences trauma or
+fixates at any of the stages, this can result in the development of
+certain personality traits and psychological disorders.</li>
+<li>The psychosexual stage model and its relationship to personality
+development remain a significant part of psychoanalytic theory.</li>
+</ul>
+</div>
+<div id="the-structural-model" class="section level3">
+<h3>The Structural Model</h3>
+<ul>
+<li>The structural model describes the psyche as consisting of three
+parts: the id, the ego, and the superego.</li>
+<li>The id is the unconscious part of the psyche that is driven by
+instinctual drives and impulses.</li>
+<li>The ego is the conscious part of the psyche that mediates between
+the impulses of the id and the demands of reality.</li>
+<li>The superego is the moral component of the psyche, which
+internalizes the values and norms of society and provides a sense of
+right and wrong.</li>
+<li>According to the structural model, the dynamic interplay between the
+id, ego, and superego results in the development of the individual’s
+personality and behaviour.</li>
+</ul>
+</div>
+<div id="the-ego-and-its-defences" class="section level3 unnumbered">
+<h3 class="unnumbered">The Ego and its Defences</h3>
+<p>Common Ego Defences in Psychodynamic Theory</p>
+<ul>
+<li><em>Repression</em>: The unconscious removal of upsetting thoughts
+and feelings from conscious awareness. Example: A person blocks out
+memories of childhood abuse.</li>
+<li><em>Denial</em>: The conscious ignoring the implications of a
+painful event. Example: A person with a substance abuse problem says
+“I’m fine—even though people complain about my drinking, I never miss a
+day of work.”</li>
+<li><em>Projection</em>: Attributing one’s own unacceptable thoughts or
+feelings to others. Example: A person who has aggressive impulses
+accuses others of being hostile.</li>
+<li><em>Displacement</em>: Shifting one’s emotional responses from a
+threatening target to a less threatening substitute. Example: A person
+who is angry with their boss takes out their frustration on their
+spouse.</li>
+<li><em>Regression</em>: Reverting to an earlier stage of development in
+response to stress. Example: An adult who is feeling overwhelmed may
+start sucking their thumb.</li>
+<li><em>Rationalization</em>: Offering self-justifying explanations in
+place of the real reasons for one’s behavior. Example: A person who was
+fired for poor performance says that the job wasn’t a good fit for them
+anyway.</li>
+<li><em>Sublimation</em>: Channelling unacceptable impulses into
+socially acceptable behavior. Example: A person who has aggressive
+impulses becomes a professional boxer.</li>
+<li>These are just a few of the many ego defenses that have been
+identified in psychodynamic theory. The use of these defences is seen as
+a way for the ego to manage anxiety and protect itself from stress, but
+at the same time, they can also lead to the distorting of reality and
+the perpetuation of problematic behavior patterns.</li>
+</ul>
+</div>
+</div>
+<div id="psychodynamic-theories-where-are-we-now"
+class="section level2 tabset">
+<h2 class="tabset">Psychodynamic Theories: Where Are We Now?</h2>
+<p>Empirical Testing of Psychodynamic Concepts: Research has been
+conducted to empirically test psychodynamic concepts and theories, such
+as the concept of transference, the role of unconscious processes in
+personality, and the effects of childhood experiences on adult behavior.
+This research has provided some support for psychodynamic concepts, but
+it has also led to modifications and revisions of these concepts.</p>
+<p>Psychoanalysis and Culture: The influence of culture on
+psychoanalytic theory has been recognized and studied. Cultural values,
+beliefs and norms can shape the way psychoanalytic concepts are
+understood and applied.</p>
+<p>Neuroscience and Psychodynamics: Advances in neuroimaging and
+neuropsychology have opened up new opportunities to explore the
+relationship between brain and behavior, and the role of unconscious
+mental processes in personality. However, the relationship between
+psychodynamics and neuroscience is still being explored, and the field
+continues to face challenges in integrating these two perspectives.</p>
+<div
+id="object-relations-theory-and-the-growth-of-the-psychodynamic-perspective"
+class="section level3">
+<h3>Object Relations Theory and the Growth of the Psychodynamic
+Perspective</h3>
+<p>Object Relations Theory: This perspective focuses on the role of
+early childhood relationships in shaping personality and shaping adult
+relationships. It emphasizes the importance of the child’s experience of
+being loved, understood and emotionally connected to important
+caretakers.</p>
+</div>
+<div id="empirical-research-on-psychodynamic-theories"
+class="section level3">
+<h3>Empirical Research on Psychodynamic Theories</h3>
+<p>Research has been conducted to empirically test psychodynamic
+concepts and theories, such as the concept of transference, the role of
+unconscious processes in personality, and the effects of childhood
+experiences on adult behavior. This research has provided some support
+for psychodynamic concepts, but it has also led to modifications and
+revisions of these concepts.</p>
+</div>
+<div id="psychoanalysis-and-culture" class="section level3">
+<h3>Psychoanalysis and Culture</h3>
+<p>The influence of culture on psychoanalytic theory has been recognized
+and studied. Cultural values, beliefs and norms can shape the way
+psychoanalytic concepts are understood and applied.</p>
+</div>
+<div id="neuroscience-and-psychodynamics" class="section level3">
+<h3>Neuroscience and Psychodynamics</h3>
+<p>Advances in neuroimaging and neuropsychology have opened up new
+opportunities to explore the relationship between brain and behavior,
+and the role of unconscious mental processes in personality. However,
+the relationship between psychodynamics and neuroscience is still being
+explored, and the field continues to face challenges in integrating
+these two perspectives.</p>
+</div>
+<div id="the-opportunities-and-challenges-of-neuroscience"
+class="section level3">
+<h3>The Opportunities and Challenges of Neuroscience</h3>
+</div>
+<div
+id="looking-ahead-psychodynamic-theory-in-the-21st-century-and-beyond"
+class="section level3">
+<h3>Looking Ahead: Psychodynamic Theory in the 21st Century (and
+Beyond)</h3>
+</div>
+</div>
 
 
 

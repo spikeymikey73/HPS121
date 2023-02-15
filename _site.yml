@@ -16,11 +16,11 @@ navbar:
           href: Topic2.html
         - text: "Psychological Disorders"
           href: Topic3.html
-        - text: "Topic 4"
+        - text: "Psychological Treatment"
           href: Topic4.html
-        - text: "Topic 5"
+        - text: "Social Psychology"
           href: Topic5.html
-        - text: "Topic 6"
+        - text: "Indigenous and Cross-Cultural Psychology"
           href: Topic6.html
 output:
   html_document

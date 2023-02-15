@@ -1,5 +1,5 @@
 ---
-title: "Psychological Treatment"
-output: html_notebook
+title: "Topic 4: Psychological Treatment"
+output: html_document
 ---
 

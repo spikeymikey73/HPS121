@@ -1,5 +1,4 @@
 ---
-title: "Indigenous and Cross-Cultural Psychology"
-output: html_notebook
+title: "Topic 6: Indigenous and Cross-Cultural Psychology"
+output: html_document
 ---
-

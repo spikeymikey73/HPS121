@@ -1,5 +1,5 @@
 ---
-title: "Psychologial Disorders"
+title: "Topic 3: Psychologial Disorders"
 output: html_document
 ---
 

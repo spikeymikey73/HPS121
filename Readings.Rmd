@@ -1,8 +1,7 @@
 ---
 title: "Reading List"
 description: "HPS121 - Introduction to Psychology: Individual and Social Development"
-output:
-  html_document
+output: html_document
 ---
 
 ***

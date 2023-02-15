@@ -1,5 +1,71 @@
 ---
-title: "Social Psychology"
-output: html_notebook
+title: "Topic 5: Social Psychology"
+output: html_document
 ---
 
+### Introduction
+
+- This chapter provides an overview of social psychology, which examines how other people influence our lives, thoughts, and behaviours.
+- It covers topics such as group processes, social cognition, conformity, obedience, prejudice, discrimination, and altruism.
+- The section on social cognition explores how people influence our thinking and how we simplify our social thinking using various heuristics.
+- The chapter also highlights some of the most famous research studies in conformity and obedience and reviews the controversy surrounding them.
+- Finally, the chapter discusses altruism and how it affects our behaviours towards others.
+
+### An Introduction to the Science of Social Psychology
+
+- Social psychology is the branch of psychological science that focuses on how the presence of others affects our thoughts, feelings, and behaviours.
+- It studies group interactions, cultural influences, and the costs and benefits of social status, among other psychological processes involving two or more people.
+- Social psychology is relevant to our everyday lives because we are social animals who care deeply about our relationships.
+- Research has shown that having high-quality relationships is a key factor in happiness, while feeling lonely or isolated can lead to depression and physical health problems.
+
+### Social Psychology is a Science
+
+- The need to belong is the desire for social connections with others and is rooted in developmental psychology.
+- It is also relevant to clinical psychology as a lack of belonging can contribute to loneliness and depression.
+- In daily life, the distinctions between areas of psychology such as social, developmental, personality-based, and clinical tend to blend together, and each has unique approaches to research.
+
+## What is Included in Social Psychology? {.tabset}
+
+### Attraction
+
+- Researchers found that when rating the faces of strangers, people from different ethnicities and cultures agreed on which faces were better looking and the specific facial features associated with attractiveness.
+- When it came to rating the attractiveness of friends, facial features like skin smoothness and eye size appeared to be less important. Instead, likeable personality characteristics were a better predictor of who was considered good looking.
+- This suggests that while certain physical features are important in assessing attractiveness, personality traits become more important once we know a person.
+
+### Attitudes
+
+- Social psychology is a field of psychology that studies how people interact with and influence each other.
+- Social psychologists are interested in:
+  - *attitudes*,
+  - *stereotyping*,
+  - *prejudice*, and
+  - *discrimination.*
+- They study:
+  - how people form attitudes,
+  - where these attitudes come from, and
+  - how they change over time.
+- Social psychologists are also interested in ways to make the world a better place, and they conduct research on attitude change and empathy towards members of different groups.
+
+### Peace & Conflict
+
+- One example is the study by Dov Cohen and his colleagues on people from a "culture of honour" and their reactions to aggression, which found that those from honour cultures were more likely to become angry in response to perceived offence, but did not necessarily act out more aggressively.
+
+### Social Influence
+
+- Persuasion involves delivering a message to influence behavior in a desired way, and it is used in various contexts, including advertising and healthcare.
+- Research has shown that small acts of kindness, like offering a small gift, can increase the likelihood of receiving a larger tip.
+- The principle of *reciprocity*, which involves the feeling of needing to give something back when something is received, plays a role in persuasion.
+- Policies such as "opt-out" organ donation have been successful in persuading more people to donate their organs, thereby saving more lives.
+
+### Social Cognition {-}
+
+- Social cognition is the way we think about the social world and perceive others.
+- Social attribution is when we make educated guesses about the efforts or motives of others.
+- The *fundamental attribution error* is the consistent way we attribute people's actions to personality traits while overlooking situational influences.
+- This can also occur with groups we belong to versus opposing groups, where we may attribute negative behavior to the character of the opposing group while excusing similar behavior by our own group.
+
+## Conclusion
+
+- Social psychologists study the ways in which people relate to each other and the impact these relationships have on individuals and society as a whole.
+- With the increase in connectivity and diversity in our modern world, there have been significant shifts in political engagement, ethnic relations, and family structure.
+- Social psychology research can lead to practical solutions for social problems, and can be used by various groups, including lawmakers, educators, therapists, and policy makers.

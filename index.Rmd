@@ -2,8 +2,7 @@
 name: "HPS121"
 title: "Unit Schedule"
 description: "HPS121 - Introduction to Psychology B: Individual and Social Development"
-output:
-  html_document
+output: html_document
 ---
 
 ***

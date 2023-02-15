@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Topic 1: Developmental Psychology</title>
+
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="index.html">Unit Guide</a>
+</li>
+<li>
+  <a href="Readings.html">Reading List</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Content
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="Topic1.html">Developmental Psychology</a>
+    </li>
+    <li>
+      <a href="Topic2.html">Personality</a>
+    </li>
+    <li>
+      <a href="Topic3.html">Psychological Disorders</a>
+    </li>
+    <li>
+      <a href="Topic4.html">Psychological Treatment</a>
+    </li>
+    <li>
+      <a href="Topic5.html">Social Psychology</a>
+    </li>
+    <li>
+      <a href="Topic6.html">Indigenous and Cross-Cultural Psychology</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Topic 1: Developmental Psychology</h1>
+
+</div>
+
+
+<hr />
+<div id="psychosocial-theory" class="section level4">
+<h4>Psychosocial Theory</h4>
+<ul>
+<li><p>8 stages of development from birth to adulthood.</p></li>
+<li><p>All stages in a specific order, containing a crisis at each
+stage. needing resolution before the next stage.</p></li>
+<li><p>Failure to resolve the crisis at each stage would effect child’s
+development at later stages.</p></li>
+</ul>
+<table>
+<colgroup>
+<col width="27%" />
+<col width="25%" />
+<col width="46%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Developmental Stage</th>
+<th align="left">Developmental Crisis</th>
+<th align="left">Description of Crisis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Birth - 1 year</td>
+<td align="left">Trust vs Mistrust</td>
+<td align="left">Development of trust as a consequence of
+treatment.</td>
+</tr>
+<tr class="even">
+<td align="left">1 - 3 years</td>
+<td align="left">Autonomy vs Shame</td>
+<td align="left">Learning to negotiate with parents to have needs and
+wants met. Development of a sense of independence.</td>
+</tr>
+<tr class="odd">
+<td align="left">3 - 6 years</td>
+<td align="left">Initiative vs Guilt</td>
+<td align="left">Learning how to play with others, lead and follow, as
+opposed to prevention from joining in through guilt or fear.</td>
+</tr>
+<tr class="even">
+<td align="left">6 years to adolescence</td>
+<td align="left">Industry vs Inferiority</td>
+<td align="left">Building of skills around play and obeying rules.
+Mastery of social skills, and self discipline. A mistrusting child will
+develop defeat and inferiority.</td>
+</tr>
+<tr class="odd">
+<td align="left">Adolescence (10 - 20 years)</td>
+<td align="left">Identity vs Identity Diffusion</td>
+<td align="left">Children experiment with defiance and rule breaking.
+Also the time when a child will develop their sense of self and
+identity.</td>
+</tr>
+<tr class="even">
+<td align="left">Young Adulthood (20 - 40 years)</td>
+<td align="left">Intimacy vs Isolation</td>
+<td align="left">A period of building long standing friendships and
+relationships.</td>
+</tr>
+<tr class="odd">
+<td align="left">Middle Adulthood (40 - 60 years)</td>
+<td align="left">Generativity vs Stagnation</td>
+<td align="left">Becoming productive in society and setting an example
+for future generations. Developing interest in parenthood.</td>
+</tr>
+<tr class="even">
+<td align="left">Old Age (60+ years)</td>
+<td align="left">Integrity vs Despair</td>
+<td align="left">Acknowledgement of prior achievement of the other
+stages and the recognition of integrity, as opposed to despair should
+one or more of the crises at previous stages not be resolved.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Evaluation of Psychosocial Theory</strong></p>
+<ul>
+<li>While insightful and plausible, no empirical evidence was gathered
+to develop theory.</li>
+<li>Erikson worked mainly with children, so his theory was based on this
+experience.</li>
+<li>The teen crisis was used to refer to the sensitivity of
+developmental meds at each stage, rather than a catastrophic event.</li>
+<li>Emphasises the role of psychological and social influence a
+development throughout a lifetime.</li>
+</ul>
+</div>
+<div id="behaviourism" class="section level4">
+<h4>Behaviourism</h4>
+<p>Watson (1913) coined the term ‘behaviourism’, which is a theory
+assuming that behaviour is observable and can be traced back to other
+observable events. The goal of Behaviourism is to explain relationships
+between stimuli, responses and consequences.</p>
+<p>Identified by many as being relevant regardless of age, and not being
+isolated to a particular “stage”. The focus instead, is on
+stimulus/response and looking for predictable patterns of behaviour.</p>
+<p><strong>Core Concepts:</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>The Blank Slate: Children enter the world as a blank slate with
+ability to learn based on their environment.</p></li>
+<li><p>Behavioural Focus: Concentrates on observable behaviours, and
+discovery of environmental stimuli responsible.</p></li>
+<li><p>Environmental Determinism: A individuals behaviour is shaped by
+their environment rather than ‘free will’.</p></li>
+<li><p>Conditioning: The main process through which we learn.</p></li>
+</ol>
+<p>Examples of behaviourism include: Pavlov’s dogs (Classical
+Conditioning), Skinner’s Pigeons (Operant Conditioning) and Bandura’s
+Social Modelling or Social learning theory (Bobo Doll). The observation
+(of consequences), imitation, and modelling as demonstrated via the Bobo
+doll experiment (modelling and imitation of aggression). The experiment
+found that observations of aggressive behaviour influenced children
+towards acceptance of behaviours.</p>
+<p><strong>Evaluation of behavioural theories</strong></p>
+<ul>
+<li>Empirical approach</li>
+<li>Attempts to demonstrate cause and effect</li>
+<li>Neglects rational thought processes.</li>
+<li>Does not address behaviours that are present in the absence of
+conditioning.</li>
+<li>Demonstration of hostile more likely to develop a hostile bias in
+future interactions.</li>
+<li>Some suggest that the setting is artificial. Demonstrating
+behaviours that were thought to be expected.</li>
+<li>Fails to determine if behaviours would be generalised in other
+scenarios.</li>
+<li>Primary focus on environmental factors, ignoring genetic
+disposition, sex based neurological differences.</li>
+</ul>
+</div>
+<div id="ethological-theory" class="section level4">
+<h4>Ethological Theory</h4>
+<p>(Darwin, Tinbergen, Burkhardt, Lorenz, Hinde, Ramey &amp; Ramey)</p>
+<p>Stresses that behaviour is strongly influenced by biology and
+evolution while also being mediated by sensitive periods. Emotions and
+thinking are heavily influenced by inherited factors. Charles Darwin’s
+theory of evolution underpins this theory, stating that more than just
+physical attributes (hair and eye colour) influence us.</p>
+<p>Also Posits that the selective pressures of an environment govern the
+development of the individual’s traits and behaviour, rather than
+genetic make up. With a basis in Darwin’s theory of natural selection,
+this theory originates in the observation of animals in their natural
+habitat rather than a lab. Others (Lorenz) in this field observed a
+critical period of development characterised by
+<strong>imprinting</strong> in animals, adapted to be known as a
+<strong>sensitive period</strong> in humans.</p>
+</div>
+<div id="bioecological-theory-bronfenbrenner" class="section level4">
+<h4>Bioecological Theory (Bronfenbrenner)</h4>
+<p>The Bioecological model focusses on individual development within a
+set of overlapping ecological systems. These systems influence the
+individual together as he/she develops.</p>
+<ol style="list-style-type: decimal">
+<li>Microsystem: Immediate social groups such as family, school, work
+and peers.</li>
+<li>Mesosystem: The connection/interaction of 2 micro systems
+(parent/teacher interviews, birthday party, etc..)</li>
+<li>Exosystem: Systems not requiring direct involvement which still
+exert an influence on the individual, such as newspapers, media,
+TV.</li>
+<li>Macrosystem: Overarching systems which govern day to day lives, such
+as local council, state government, economy, culture.</li>
+</ol>
+<p>The later addition of the Chronosystem addressed the influence of
+time to both historical events (war, recession, etc.) and the timing of
+life events (puberty, having children, getting married)</p>
+<div class="figure">
+<img src="Images/Topic1/Bronfenbrenner.webp" alt="" />
+<p class="caption">Bioecological Theory</p>
+</div>
+</div>
+<div id="life-course-theory" class="section level4">
+<h4>Life Course Theory</h4>
+<p>Four key concepts:</p>
+<ol style="list-style-type: decimal">
+<li><em>Human lives situated in historical time and place</em>
+<ul>
+<li><em>Cohort Effect:</em> Posits that the effects of an event can
+influence the development of members across different birth cohorts in
+different ways.</li>
+<li><em>Period Effect:</em> An historical event can influence the
+development of individuals across differing birth cohorts in a similar
+way.</li>
+</ul></li>
+<li><em>Developmental Studies must pay attention to the time of our
+lives</em>
+<ul>
+<li>Social roles and events can define our behaviours based on the
+period of our lives in which they occur. (e.g. teen mum vs 30 something
+mum)</li>
+</ul></li>
+<li><em>Human lives are interdependant and linked</em>
+<ul>
+<li>Connections with care givers and others significantly inform later
+relationships.</li>
+</ul></li>
+<li><em>Humans have the ability to make decisions and change our
+lives</em>
+<ul>
+<li>Our own decision making processes and choice of behaviour can impact
+the direction and pace of our development.</li>
+</ul></li>
+</ol>
+<p><em>Bronfenbrenner’s theory focussed on the individual, while Elder’s
+theory focussed on social environments.</em></p>
+<hr />
+<p>Cognitive development theories</p>
+<ul>
+<li>Piaget’s CDT</li>
+<li>Sociocultural Theory Development (Vygotsky)</li>
+<li>Info processing approach (Siegler)</li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

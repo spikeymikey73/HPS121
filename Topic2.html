@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Topic 2: Personality</title>
+
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="index.html">Unit Guide</a>
+</li>
+<li>
+  <a href="Readings.html">Reading List</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Content
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="Topic1.html">Developmental Psychology</a>
+    </li>
+    <li>
+      <a href="Topic2.html">Personality</a>
+    </li>
+    <li>
+      <a href="Topic3.html">Psychological Disorders</a>
+    </li>
+    <li>
+      <a href="Topic4.html">Psychological Treatment</a>
+    </li>
+    <li>
+      <a href="Topic5.html">Social Psychology</a>
+    </li>
+    <li>
+      <a href="Topic6.html">Indigenous and Cross-Cultural Psychology</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Topic 2: Personality</h1>
+
+</div>
+
+
+<div id="the-psychodynamic-perspective" class="section level2 tabset">
+<h2 class="tabset">The Psychodynamic Perspective</h2>
+<ul>
+<li>Psychodynamic perspective is a psychological approach that
+originated from the work of Sigmund Freud.</li>
+<li>It focuses on unconscious processes and the impact of childhood
+experiences on the development of adult personality.</li>
+<li>It has evolved over time and now includes theories like object
+relations and neuropsychoanalysis.</li>
+<li>While some psychodynamic concepts have been supported by empirical
+evidence, others are still controversial and the approach continues to
+influence various areas of modern psychology.</li>
+</ul>
+<div id="introduction" class="section level3">
+<h3>Introduction</h3>
+<ul>
+<li>The psychodynamic perspective on personality, originated from the
+work of Sigmund Freud, emphasizes unconscious psychological processes
+(such as wishes and fears) and the impact of childhood experiences on
+adult personality.</li>
+<li>This perspective has been both influential and controversial, with
+some of its concepts being supported by empirical evidence while others
+are not.</li>
+<li>The psychodynamic theory continues to play an important role in
+psychology and many related disciplines, such as developmental
+psychology, social psychology, sociology, and neuroscience.</li>
+<li>The theory has evolved over time and now includes innovative
+approaches such as object relations theory and neuropsychoanalysis.</li>
+<li>In the context of personality, psychodynamic theory can help one
+understand why they may do things that don’t make sense, by exploring
+unconscious thoughts and emotions.</li>
+</ul>
+</div>
+<div id="core-assumptions-of-the-psychodynamic-perspective"
+class="section level3">
+<h3>Core Assumptions of the Psychodynamic Perspective</h3>
+<p>The core assumptions of the psychodynamic framework are unique from
+the componenets of other personality ideas.</p>
+</div>
+<div id="primacy-of-the-unconscious" class="section level3">
+<h3>1. Primacy of the Unconscious</h3>
+<ul>
+<li>The perspective on unconscious psychological processes is a central
+aspect of psychodynamic theory.</li>
+<li>The idea is that unconscious thoughts, feelings, and impulses
+influence our behaviour, even though we may not be aware of them.</li>
+<li>For example, a person may have unconscious fears or desires that
+drive their behaviour, even if they don’t consciously understand what is
+motivating them.</li>
+<li>Psychoanalytic therapy aims to bring these unconscious processes to
+consciousness, where they can be better understood and addressed.</li>
+<li>The belief in the importance of unconscious psychological processes
+continues to be a defining feature of the psychodynamic perspective on
+personality.</li>
+</ul>
+</div>
+<div id="critical-importance-of-early-experiences"
+class="section level3">
+<h3>2. Critical Importance of Early Experiences</h3>
+<ul>
+<li>The psychodynamic theory holds that childhood experiences and
+unconscious psychological processes play a crucial role in shaping adult
+personality.</li>
+<li>According to this perspective, early childhood experiences,
+including even those that occur in the first few weeks or months of
+life, can have a lasting impact on a person’s personality development
+and dynamics.</li>
+<li>The emphasis on early childhood events sets the psychodynamic theory
+apart from other models of personality development, which also consider
+early experiences but do not place as much emphasis on their
+impact.</li>
+<li>The theory also posits that experiences outside the normal range,
+such as the loss of a parent or sibling at an early age, can have a
+particularly strong impact on personality development.</li>
+</ul>
+</div>
+<div id="psychic-causality" class="section level3">
+<h3>3. Psychic Causality</h3>
+<ul>
+<li>The third core assumption of psychodynamic theory is that nothing in
+mental life happens by chance—that there is no such thing as a random
+thought, feeling, motive, or behaviour.</li>
+<li>This has come to be known as the <em>principle of psychic
+causality</em>, and though few psychologists accept the principle of
+psychic causality precisely as psychoanalysts conceive it, most
+theorists and researchers agree that thoughts, motives, emotional
+responses, and expressed behaviours do not arise randomly, but always
+stem from some combination of identifiable biological and psychological
+processes (Elliott, 2002; Robinson &amp; Gordon, 2011).</li>
+</ul>
+</div>
+</div>
+<div id="the-evolution-of-psychodynamic-theory" class="section level2">
+<h2>The Evolution of Psychodynamic Theory</h2>
+<ul>
+<li>Freud’s background in neurology is the basis for the first
+incarnation of psychoanalytic theory being regarded as primarily
+biological.</li>
+<li>Freud set out to explain psychological phenomena in terms that could
+be linked to neurological functioning as it was understood in his
+day.</li>
+<li>Because Freud’s work in this area evolved over more than 50 years
+(he began in 1885, and continued until he died in 1939), there were
+numerous revisions along the way.</li>
+<li>Thus, it is most accurate to think of psychodynamic theory as a set
+of interrelated models that complement and build upon each other.</li>
+<li>Three are particularly important: the topographic model, the
+psychosexual stage model, and the structural model.</li>
+</ul>
+<div id="the-topographic-model" class="section level3">
+<h3>The Topographic Model</h3>
+<ul>
+<li>The topographic model describes the unconscious, preconscious, and
+conscious as different regions of the mind.</li>
+<li>The unconscious is seen as the largest (and most primitive, and
+controversial) part of the psyche, contains all the instinctual drives,
+repressed material, and anxiety-producing material (such as sexual
+impulses and aggressive urges) that are deliberately repressed, meaning
+they are kept outside of conscious awareness as a form of self-defence
+because they make you uncomfortable.</li>
+<li>The preconscious is a more advanced part of the mind, which contains
+thoughts and feelings that are not currently in conscious awareness but
+can be brought to consciousness if needed.</li>
+<li>The conscious is the smallest part of the mind and contains all the
+thoughts, feelings, and experiences that are currently in
+awareness.</li>
+<li>The idea of the unconscious mind continues to be debated in
+psychology, with some researchers finding evidence for its existence and
+others believing that unconscious processing can be explained without
+it.</li>
+<li>The terms conscious, preconscious, and unconscious continue to be
+used today and research has provided some support for Freud’s thoughts
+regarding conscious and preconscious processing.</li>
+<li>However, the idea of a Freudian unconscious repository of repressed
+wishes and impulses remains controversial.</li>
+</ul>
+</div>
+<div id="the-psychosexual-stage-model" class="section level3">
+<h3>The Psychosexual Stage Model</h3>
+<ul>
+<li>The psychosexual stage model proposed by Freud in 1905 argues that
+human personality development progresses through a sequence of stages
+(driven by sexual and aggressive energy (libido)), each with its own
+unique challenge and mode of sexual gratification from infancy to
+adulthood.</li>
+<li>The stages are oral, anal, Oedipal, latency, and genital. Fixation
+at a particular stage due to frustration or over gratification is
+thought to result in a dependent (oral), controlling (anal), or
+aggressive/competitive (Oedipal) personality style.</li>
+<li>Each stage is marked by the appearance of a new erogenous zone (an
+area of the body that is particularly sensitive to sexual stimulation)
+and is associated with a specific conflict that must be resolved.</li>
+<li>According to the model, if the individual experiences trauma or
+fixates at any of the stages, this can result in the development of
+certain personality traits and psychological disorders.</li>
+<li>The psychosexual stage model and its relationship to personality
+development remain a significant part of psychoanalytic theory.</li>
+</ul>
+</div>
+<div id="the-structural-model" class="section level3">
+<h3>The Structural Model</h3>
+<ul>
+<li>The structural model describes the psyche as consisting of three
+parts: the id, the ego, and the superego.</li>
+<li>The id is the unconscious part of the psyche that is driven by
+instinctual drives and impulses.</li>
+<li>The ego is the conscious part of the psyche that mediates between
+the impulses of the id and the demands of reality.</li>
+<li>The superego is the moral component of the psyche, which
+internalizes the values and norms of society and provides a sense of
+right and wrong.</li>
+<li>According to the structural model, the dynamic interplay between the
+id, ego, and superego results in the development of the individual’s
+personality and behaviour.</li>
+</ul>
+</div>
+<div id="the-ego-and-its-defences" class="section level3">
+<h3>The Ego and its Defences</h3>
+<p>Common Ego Defences in Psychodynamic Theory</p>
+<ul>
+<li><em>Repression</em>: The unconscious removal of upsetting thoughts
+and feelings from conscious awareness. Example: A person blocks out
+memories of childhood abuse.</li>
+<li><em>Denial</em>: The conscious ignoring the implications of a
+painful event. Example: A person with a substance abuse problem says
+“I’m fine—even though people complain about my drinking, I never miss a
+day of work.”</li>
+<li><em>Projection</em>: Attributing one’s own unacceptable thoughts or
+feelings to others. Example: A person who has aggressive impulses
+accuses others of being hostile.</li>
+<li><em>Displacement</em>: Shifting one’s emotional responses from a
+threatening target to a less threatening substitute. Example: A person
+who is angry with their boss takes out their frustration on their
+spouse.</li>
+<li><em>Regression</em>: Reverting to an earlier stage of development in
+response to stress. Example: An adult who is feeling overwhelmed may
+start sucking their thumb.</li>
+<li><em>Rationalization</em>: Offering self-justifying explanations in
+place of the real reasons for one’s behavior. Example: A person who was
+fired for poor performance says that the job wasn’t a good fit for them
+anyway.</li>
+<li><em>Sublimation</em>: Channelling unacceptable impulses into
+socially acceptable behavior. Example: A person who has aggressive
+impulses becomes a professional boxer.</li>
+<li>These are just a few of the many ego defenses that have been
+identified in psychodynamic theory. The use of these defences is seen as
+a way for the ego to manage anxiety and protect itself from stress, but
+at the same time, they can also lead to the distorting of reality and
+the perpetuation of problematic behavior patterns.</li>
+</ul>
+</div>
+</div>
+<div id="psychodynamic-theories-where-are-we-now"
+class="section level2">
+<h2>Psychodynamic Theories: Where Are We Now?</h2>
+<p>Empirical Testing of Psychodynamic Concepts: Research has been
+conducted to empirically test psychodynamic concepts and theories, such
+as the concept of transference, the role of unconscious processes in
+personality, and the effects of childhood experiences on adult behavior.
+This research has provided some support for psychodynamic concepts, but
+it has also led to modifications and revisions of these concepts.</p>
+<p>Psychoanalysis and Culture: The influence of culture on
+psychoanalytic theory has been recognized and studied. Cultural values,
+beliefs and norms can shape the way psychoanalytic concepts are
+understood and applied.</p>
+<p>Neuroscience and Psychodynamics: Advances in neuroimaging and
+neuropsychology have opened up new opportunities to explore the
+relationship between brain and behavior, and the role of unconscious
+mental processes in personality. However, the relationship between
+psychodynamics and neuroscience is still being explored, and the field
+continues to face challenges in integrating these two perspectives.</p>
+<div
+id="object-relations-theory-and-the-growth-of-the-psychodynamic-perspective"
+class="section level3">
+<h3>Object Relations Theory and the Growth of the Psychodynamic
+Perspective</h3>
+<ul>
+<li>This perspective focuses on the role of early childhood
+relationships in shaping personality and shaping adult relationships. It
+emphasizes the importance of the child’s experience of being loved,
+understood and emotionally connected to important caretakers.</li>
+<li>According to this theory, a child’s relationship with his or her
+parents is crucial to the formation of self-esteem and the capacity for
+healthy relationships in adulthood.</li>
+<li>The child’s interactions with his or her parents and other
+significant figures are seen as the building blocks of the child’s inner
+world, including mental representations of self and others, as well as
+unconscious fantasies, desires, and anxieties.</li>
+<li>Also emphasizes the importance of the interpersonal context in
+shaping personality development. This means that relationships, rather
+than individual factors, are seen as the key drivers of personality
+development and change.</li>
+<li>Overall, object relations theory offers a nuanced and sophisticated
+perspective on the development of personality, recognizing the
+importance of both early childhood experiences and ongoing relationships
+in shaping the self and personality.</li>
+</ul>
+</div>
+<div id="empirical-research-on-psychodynamic-theories"
+class="section level3">
+<h3>Empirical Research on Psychodynamic Theories</h3>
+<ul>
+<li>Research has been conducted to empirically test psychodynamic
+concepts and theories, such as the concept of transference, the role of
+unconscious processes in personality, and the effects of childhood
+experiences on adult behavior.</li>
+<li>This research has provided some support for psychodynamic concepts,
+but it has also led to modifications and revisions of these
+concepts.</li>
+<li>Psychoanalysis and culture is another growing area of interest in
+contemporary psychodynamic theory.</li>
+<li>Psychoanalysis has always been concerned with the role of culture in
+shaping personality, but it has historically focused on the influence of
+the cultural forces (such as media, religion, politics, and economics)
+that shape our unconscious desires and conflicts.</li>
+<li>Today, psychoanalytic research also considers the ways in which
+culture shapes the way we understand and treat mental illness.</li>
+<li>In particular, researchers are exploring how cultural and ethnic
+differences affect the way people experience and express emotions,
+relationships, and psychological distress.</li>
+<li>Advances in neuroscience have created new opportunities and
+challenges for psychodynamic theory. The increasing ability to measure
+brain activity has created the possibility of gaining new insights into
+unconscious mental processes, including the workings of the ego, the id,
+and the superego. However, neuroscience has also created challenges for
+psychodynamic theory, because it has revealed that some traditional
+psychoanalytic concepts, such as the notion that the unconscious is
+inaccessible to conscious awareness, may be too simplistic (Kihlstrom,
+2010). Nonetheless, the integration of psychodynamic theory with
+neuroscience has the potential to advance our understanding of mental
+processes, personality development, and the treatment of psychological
+disorders.</li>
+</ul>
+</div>
+<div id="psychoanalysis-and-culture" class="section level3">
+<h3>Psychoanalysis and Culture</h3>
+<p>The influence of culture on psychoanalytic theory has been recognized
+and studied. Cultural values, beliefs and norms can shape the way
+psychoanalytic concepts are understood and applied.</p>
+</div>
+<div id="neuroscience-and-psychodynamics" class="section level3">
+<h3>Neuroscience and Psychodynamics</h3>
+<p>Advances in neuroimaging and neuropsychology have opened up new
+opportunities to explore the relationship between brain and behavior,
+and the role of unconscious mental processes in personality. However,
+the relationship between psychodynamics and neuroscience is still being
+explored, and the field continues to face challenges in integrating
+these two perspectives.</p>
+</div>
+<div id="the-opportunities-and-challenges-of-neuroscience"
+class="section level3">
+<h3>The Opportunities and Challenges of Neuroscience</h3>
+<ul>
+<li>The integration of psychodynamic and neuroscientific perspectives
+has brought new opportunities for exploring the underlying neural
+mechanisms of psychological processes, such as emotions, thoughts, and
+behaviours.</li>
+<li>It has provided a new understanding of the relationship between
+brain and mental processes and has advanced the treatment of mental
+disorders.</li>
+<li>Despite these advancements, there are still challenges in the
+integration of psychodynamic and neuroscience perspectives, such as the
+different theoretical frameworks and languages used in both fields.</li>
+<li>The integration of psychodynamic principles with findings from
+neuroscience continues to offer a promising direction for future
+research in the field of psychology.</li>
+</ul>
+</div>
+<div
+id="looking-ahead-psychodynamic-theory-in-the-21st-century-and-beyond"
+class="section level3 unnumbered">
+<h3 class="unnumbered">Looking Ahead: Psychodynamic Theory in the 21st
+Century (and Beyond)</h3>
+<ul>
+<li>The psychodynamic perspective has been a major force in psychology
+for more than a century and has had a lasting impact on the field.</li>
+<li>Despite criticism and controversy, the psychodynamic perspective has
+been able to evolve and adapt to new ideas, findings, and social
+forces.</li>
+<li>The theory continues to be relevant in addressing a wide range of
+topics such as normal and pathological functioning, motivation and
+emotion, childhood and adulthood, individual and culture.</li>
+<li>The integration of psychodynamic concepts with findings from
+neuroscience has also led to the development of neuropsychoanalysis,
+which has further expanded our understanding of human behavior and
+mental functioning. Overall, the psychodynamic perspective offers a
+comprehensive and integrative approach to understanding human
+personality and behavior, making it a valuable contribution to the field
+of psychology.</li>
+</ul>
+</div>
+</div>
+<div id="personality-traits" class="section level2 tabset">
+<h2 class="tabset">Personality Traits</h2>
+<div id="introduction-1" class="section level3">
+<h3>Introduction</h3>
+<ul>
+<li>The trait approach to personality psychology aims to understand
+individual differences in personality by focusing on personality traits,
+which are basic dimensions along which people differ.</li>
+<li>Traits are thought to be consistent, stable, and reflective of
+individual differences.</li>
+<li>Gordon Allport and Henry Odbert’s lexical hypothesis guided their
+approach to finding the major traits by searching dictionaries for
+personality descriptors and using statistical techniques to determine
+which words went together.</li>
+<li>The goal was to identify the basic dimensions underlying the many
+words we use to describe people and reduce the number of traits.</li>
+<li>The trait approach has been successful in identifying the
+five-factor model or the “big five” traits:
+<ul>
+<li>Extroversion,</li>
+<li>Conscientiousness,</li>
+<li>Agreeableness,</li>
+<li>Neuroticism, and</li>
+<li>Openness to Experience.</li>
+</ul></li>
+</ul>
+</div>
+<div id="the-five-factor-model-of-personality" class="section level3">
+<h3>The Five-Factor Model of Personality</h3>
+<ul>
+<li>The Big Five or Five-Factor Model of personality is the most widely
+accepted system for describing personality traits.</li>
+<li>The five traits are Openness, Conscientiousness, Extroversion,
+Agreeableness, and Neuroticism (OCEAN).</li>
+<li>These traits describe stable patterns of behavior that persist over
+long periods of time and have broad-ranging consequences for various
+areas of life.</li>
+<li>For instance, Conscientiousness has been found to predict success in
+college, job performance, and health.</li>
+<li>There is growing interest in personality psychology among
+psychologists who work in applied settings like health psychology and
+organizational psychology.</li>
+</ul>
+</div>
+<div id="facets-of-traits-subtraits" class="section level3">
+<h3>Facets of Traits (Subtraits)</h3>
+<ul>
+<li>The Big Five traits are a widely accepted framework for summarizing
+a person’s personality.</li>
+<li>They are, however, considered broad and do not capture the
+complexity and specificity of an individual’s behavior and
+thoughts.</li>
+<li>To address this, lower-level units of personality known as facets
+have been proposed.</li>
+<li>Facets provide more specific descriptions of a person’s
+characteristics and are useful in providing a more nuanced understanding
+of an individual’s personality.</li>
+<li>Different facets within a trait tend to go together and can be used
+to predict how a person might behave in different situations.</li>
+<li>The list of facets is not universally accepted, and different
+researchers may propose different lists. Nevertheless, facets provide
+valuable information and add to our understanding of a person’s
+personality beyond just their Big Five trait scores.</li>
+</ul>
+</div>
+<div id="other-traits-beyond-the-five-factor-model"
+class="section level3">
+<h3>Other Traits Beyond the Five-Factor Model</h3>
+<p>-Not all researchers agree on the number and composition of
+personality traits, and there have been other models proposed with
+different traits. - For example, Hans Eysenck proposed that Extraversion
+and Neuroticism are the two most important traits and linked them to
+differences in people’s biology. - The HEXACO model adds
+Honesty-Humility as a sixth dimension of personality. - Despite the
+popularity of the Big Five, there are still debates on the exact number
+and composition of the traits that are most important in understanding
+personality. - Additionally, there are many other traits that have been
+studied by researchers in the field of personality psychology that are
+not included in comprehensive models like the Big Five.</p>
+</div>
+<div
+id="the-person-situation-debate-and-alternatives-to-the-trait-perspective"
+class="section level3 unnumbered">
+<h3 class="unnumbered">The Person-Situation Debate and Alternatives to
+the Trait Perspective</h3>
+<ul>
+<li>The person-situation debate in personality psychology arose from the
+publication of Walter Mischel’s book “Personality and Assessment” in
+1968.</li>
+<li>Mischel challenged the traditional trait perspective of personality
+by suggesting that people’s behavior is not consistently consistent
+across different situations.</li>
+<li>He believed that psychologists should focus on people’s unique
+reactions to specific situations rather than studying broad,
+context-free traits.</li>
+<li>Subsequent research to address this theory showed that on average,
+the effect of the situation is about as large as that of personality
+traits.</li>
+<li>Personality traits still provide an indication of how people will
+act on average, but they are not always good predictors of specific
+behavior in a given situation.</li>
+<li>Most modern personality researchers acknowledge the value of both
+broad personality traits and narrower units studied by Mischel.</li>
+</ul>
+</div>
+</div>
+<div id="personality-assessment" class="section level2 tabset">
+<h2 class="tabset">Personality Assessment</h2>
+<div id="introduction-2" class="section level3">
+<h3>Introduction</h3>
+<ul>
+<li>The study of personality is diverse and encompasses a broad range of
+traits and characteristics.</li>
+<li>Different theoretical models have led to different approaches for
+measuring these characteristics.</li>
+<li><em>Humanistic</em> models focus on individuals’ goals and
+motivations, so asking them directly is a good approach.</li>
+<li><em>Psychodynamic</em> models suggest that unconscious processes
+drive behaviour, so researchers adopt indirect approaches to identify
+these factors.</li>
+</ul>
+</div>
+<div id="objective-tests" class="section level3">
+<h3>Objective Tests</h3>
+<div id="definition" class="section level4">
+<h4>Definition</h4>
+<ul>
+<li>Objective tests have several advantages in personality assessment:
+<ul>
+<li>Relatively inexpensive and easy to administer,</li>
+<li>Can be administered to large groups of people, and</li>
+<li>Are usually highly reliable (i.e., they provide consistent scores
+over time).</li>
+</ul></li>
+<li>However, objective tests have certain limitations as well:
+<ul>
+<li>Limited in their ability to capture the complexity of individual
+differences,</li>
+<li>May not always provide a complete picture of an individual’s
+personality,</li>
+<li>Can be affected by social desirability bias (where people tend to
+respond in a way that they believe is socially desirable or acceptable),
+rather than providing a true representation of their personality.</li>
+</ul></li>
+<li>Despite these limitations, objective tests continue to be widely
+used in personality assessment due to their ease of use, reliability,
+and versatility.</li>
+</ul>
+</div>
+</div>
+<div id="basic-types-of-objective-tests" class="section level3">
+<h3>Basic Types of Objective Tests</h3>
+<div id="self-report-measures" class="section level4">
+<h4>Self-Report Measures</h4>
+<ul>
+<li>Objective personality tests are widely used to assess personality,
+and can be self-administered or performed by a psychologist.</li>
+<li>Self-report tests, in which individuals describe themselves, are the
+most widely used type of objective test.</li>
+<li>They offer advantages such as:
+<ul>
+<li>cost-effectiveness, and</li>
+<li>simplicity and access to a wealth of information.</li>
+</ul></li>
+<li>Self-reported personality has been shown to have significant
+validity in relation to various important outcomes, such as academic and
+job performance, occupational attainment, divorce, and mortality, as
+well as links to psychopathology.</li>
+<li>Self-reported personality, however, is limited by:
+<ul>
+<li>The possibility of socially desirable responding,</li>
+<li>Self-enhancement bias, and</li>
+<li>The reference group effect.</li>
+</ul></li>
+</ul>
+</div>
+<div id="informant-ratings" class="section level4">
+<h4>Informant Ratings</h4>
+<ul>
+<li>Informant personality ratings are a method of assessing someone’s
+personality where the information is gathered from a person who knows
+the person being rated well, such as a parent, teacher, spouse, friend,
+or boss.</li>
+<li>These ratings are particularly useful when self-ratings are not
+possible or not reliable.</li>
+<li>Informant ratings offer advantages such as:
+<ul>
+<li>Being based on the informant’s observation of the person’s
+behaviour, and</li>
+<li>Being less likely to be distorted by defensiveness.</li>
+</ul></li>
+<li>Informant ratings can also be limited by:
+<ul>
+<li>The amount of information the informant has about the person,
+and</li>
+<li>Are subject to response biases (the reference group effect, and the
+tendency for informants to produce overly favourable ratings).</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="other-ways-of-classifying-objective-tests"
+class="section level3">
+<h3>Other Ways of Classifying Objective Tests</h3>
+<ul>
+<li>Personality tests differ on two dimensions:
+<ul>
+<li><em>Comprehensiveness</em> (measure a single attribute (e.g. Toronto
+Alexithymia Scale, Rosenberg Self-Esteem Scale), and</li>
+<li><em>Breadth of the target characteristics</em> (e.g. California
+Psychological Inventory, HEXACO Personality Inventory, Multidimensional
+Personality Questionnaire, NEO Personality Inventory-3, Personality
+Research Form, 16PF).</li>
+</ul></li>
+<li>There are different levels of breadth or generality at which
+personality characteristics can be classified.</li>
+<li>Some models emphasize broad, “big” traits, while others focus on
+more specific characteristics.</li>
+<li>Some popular personality instruments assess only broad traits, while
+others assess a large number of more specific characteristics.</li>
+<li>Some instruments are explicitly designed to provide coverage of both
+general and specific trait characteristics.</li>
+</ul>
+</div>
+<div id="projective-and-implicit-tests" class="section level3">
+<h3>Projective and Implicit Tests</h3>
+<ul>
+<li><p><em>Projective</em> tests are based on the belief that
+unconscious needs, feelings, and experiences can be revealed by having
+people describe or interpret ambiguous stimuli.</p></li>
+<li><p>Examples of projective tests include the Rorschach Inkblot Test
+and the Thematic Apperception Test (TAT).</p></li>
+<li><p>Projective tests can be cumbersome to administer and score, but
+they can provide information about implicit motives that is not easily
+obtained from objective measures.</p></li>
+<li><p>The TAT has shown significant validity in measuring the need for
+achievement, while the validity of the Rorschach has been a matter of
+controversy.</p></li>
+<li><p><em>Implicit</em> measures of personality are based on the idea
+that people form automatic or implicit associations between certain
+concepts based on their previous experience and behaviour.</p></li>
+<li><p>These measures assess the strength of associations between
+concepts and can be used to predict behavior, even after controlling for
+scores on objective measures of personality.</p></li>
+<li><p>While validity evidence for these measures is still limited, the
+results to date are promising.</p></li>
+</ul>
+</div>
+<div id="behavioral-and-performance-measures" class="section level3">
+<h3>Behavioral and Performance Measures</h3>
+<ul>
+<li>Behavioural measures of personality involve directly observing and
+measuring people’s behaviour in natural settings.</li>
+<li>This approach offers several advantages, such as avoiding response
+biases and studying people in their daily lives.</li>
+<li>However, it is more labour-intensive than other methods and
+generates a large set of data that must be scored reliably.</li>
+<li>Also, the small samples of behavior collected may not reflect a
+person’s true characteristics accurately, as they can be influenced by
+transient factors such as a participant’s level of stress, and their
+quality of sleep the previous night.</li>
+</ul>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

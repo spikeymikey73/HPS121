@@ -3,14 +3,14 @@ title: "Topic 2: Personality"
 output: html_document
 ---
 
-## The Psychodynamic Perspective
+## The Psychodynamic Perspective {.tabset}
 
 - Psychodynamic perspective is a psychological approach that originated from the work of Sigmund Freud.
 - It focuses on unconscious processes and the impact of childhood experiences on the development of adult personality.
 - It has evolved over time and now includes theories like object relations and neuropsychoanalysis.
 - While some psychodynamic concepts have been supported by empirical evidence, others are still controversial and the approach continues to influence various areas of modern psychology.
 
-## Introduction
+### Introduction
 
 - The psychodynamic perspective on personality, originated from the work of Sigmund Freud, emphasizes unconscious psychological processes (such as wishes and fears) and the impact of childhood experiences on adult personality.
 - This perspective has been both influential and controversial, with some of its concepts being supported by empirical evidence while others are not.
@@ -18,7 +18,7 @@ output: html_document
 - The theory has evolved over time and now includes innovative approaches such as object relations theory and neuropsychoanalysis.
 - In the context of personality, psychodynamic theory can help one understand why they may do things that don't make sense, by exploring unconscious thoughts and emotions.
 
-## Core Assumptions of the Psychodynamic Perspective {.tabset}
+### Core Assumptions of the Psychodynamic Perspective
 
 The core assumptions of the psychodynamic framework are unique from the componenets of other personality ideas.
 
@@ -37,12 +37,12 @@ The core assumptions of the psychodynamic framework are unique from the componen
 - The emphasis on early childhood events sets the psychodynamic theory apart from other models of personality development, which also consider early experiences but do not place as much emphasis on their impact.
 - The theory also posits that experiences outside the normal range, such as the loss of a parent or sibling at an early age, can have a particularly strong impact on personality development.
 
-### 3. Psychic Causality {-}
+### 3. Psychic Causality
 
 - The third core assumption of psychodynamic theory is that nothing in mental life happens by chance—that there is no such thing as a random thought, feeling, motive, or behaviour.
 - This has come to be known as the *principle of psychic causality*, and though few psychologists accept the principle of psychic causality precisely as psychoanalysts conceive it, most theorists and researchers agree that thoughts, motives, emotional responses, and expressed behaviours do not arise randomly, but always stem from some combination of identifiable biological and psychological processes (Elliott, 2002; Robinson & Gordon, 2011).
 
-## The Evolution of Psychodynamic Theory {.tabset}
+## The Evolution of Psychodynamic Theory
 
 - Freud’s background in neurology is the basis for the first incarnation of psychoanalytic theory being regarded as primarily biological.
 - Freud set out to explain psychological phenomena in terms that could be linked to neurological functioning as it was understood in his day.
@@ -76,7 +76,7 @@ The core assumptions of the psychodynamic framework are unique from the componen
 - The superego is the moral component of the psyche, which internalizes the values and norms of society and provides a sense of right and wrong.
 - According to the structural model, the dynamic interplay between the id, ego, and superego results in the development of the individual’s personality and behaviour.
 
-### The Ego and its Defences {-}
+### The Ego and its Defences
 
 Common Ego Defences in Psychodynamic Theory
 
@@ -90,7 +90,7 @@ Common Ego Defences in Psychodynamic Theory
 - These are just a few of the many ego defenses that have been identified in psychodynamic theory. The use of these defences is seen as a way for the ego to manage anxiety and protect itself from stress, but at the same time, they can also lead to the distorting of reality and the perpetuation of problematic behavior patterns.
 
 
-## Psychodynamic Theories: Where Are We Now? {.tabset}
+## Psychodynamic Theories: Where Are We Now?
 
 Empirical Testing of Psychodynamic Concepts: Research has been conducted to empirically test psychodynamic concepts and theories, such as the concept of transference, the role of unconscious processes in personality, and the effects of childhood experiences on adult behavior. This research has provided some support for psychodynamic concepts, but it has also led to modifications and revisions of these concepts.
 
@@ -131,7 +131,7 @@ Advances in neuroimaging and neuropsychology have opened up new opportunities to
 - Despite these advancements, there are still challenges in the integration of psychodynamic and neuroscience perspectives, such as the different theoretical frameworks and languages used in both fields.
 - The integration of psychodynamic principles with findings from neuroscience continues to offer a promising direction for future research in the field of psychology.
 
-### Looking Ahead: Psychodynamic Theory in the 21st Century (and Beyond)
+### Looking Ahead: Psychodynamic Theory in the 21st Century (and Beyond) {-}
 
 - The psychodynamic perspective has been a major force in psychology for more than a century and has had a lasting impact on the field.
 - Despite criticism and controversy, the psychodynamic perspective has been able to evolve and adapt to new ideas, findings, and social forces.

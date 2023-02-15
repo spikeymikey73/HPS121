@@ -10,17 +10,16 @@ navbar:
       href: Readings.html
     - text: "Content"
       menu:
-        - text: "Developmental Psychology"
+        - text: "Topic 1: Developmental Psychology"
           href: Topic1.html
-        - text: "Personality"
+        - text: "Topic 2: Personality"
           href: Topic2.html
-        - text: "Psychological Disorders"
+        - text: "Topic 3: Psychological Disorders"
           href: Topic3.html
-        - text: "Psychological Treatment"
+        - text: "Topic 4: Psychological Treatment"
           href: Topic4.html
-        - text: "Social Psychology"
+        - text: "Topic 5: Social Psychology"
           href: Topic5.html
-        - text: "Indigenous and Cross-Cultural Psychology"
+        - text: "Topic 6: Indigenous and Cross-Cultural Psychology"
           href: Topic6.html
-output:
-  html_document
+output: html_document

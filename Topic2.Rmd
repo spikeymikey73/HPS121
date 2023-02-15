@@ -3,13 +3,6 @@ title: "Topic 2: Personality"
 output: html_document
 ---
 
-## The Psychodynamic Perspective {.tabset}
-
-- Psychodynamic perspective is a psychological approach that originated from the work of Sigmund Freud.
-- It focuses on unconscious processes and the impact of childhood experiences on the development of adult personality.
-- It has evolved over time and now includes theories like object relations and neuropsychoanalysis.
-- While some psychodynamic concepts have been supported by empirical evidence, others are still controversial and the approach continues to influence various areas of modern psychology.
-
 ### Introduction
 
 - The psychodynamic perspective on personality, originated from the work of Sigmund Freud, emphasizes unconscious psychological processes (such as wishes and fears) and the impact of childhood experiences on adult personality.
@@ -18,7 +11,7 @@ output: html_document
 - The theory has evolved over time and now includes innovative approaches such as object relations theory and neuropsychoanalysis.
 - In the context of personality, psychodynamic theory can help one understand why they may do things that don't make sense, by exploring unconscious thoughts and emotions.
 
-### Core Assumptions of the Psychodynamic Perspective
+## Core Assumptions of the Psychodynamic Perspective {.tabset}
 
 The core assumptions of the psychodynamic framework are unique from the componenets of other personality ideas.
 
@@ -30,6 +23,8 @@ The core assumptions of the psychodynamic framework are unique from the componen
 - Psychoanalytic therapy aims to bring these unconscious processes to consciousness, where they can be better understood and addressed.
 - The belief in the importance of unconscious psychological processes continues to be a defining feature of the psychodynamic perspective on personality.
 
+***
+
 ### 2. Critical Importance of Early Experiences
 
 - The psychodynamic theory holds that childhood experiences and unconscious psychological processes play a crucial role in shaping adult personality.
@@ -37,12 +32,16 @@ The core assumptions of the psychodynamic framework are unique from the componen
 - The emphasis on early childhood events sets the psychodynamic theory apart from other models of personality development, which also consider early experiences but do not place as much emphasis on their impact.
 - The theory also posits that experiences outside the normal range, such as the loss of a parent or sibling at an early age, can have a particularly strong impact on personality development.
 
-### 3. Psychic Causality
+***
+
+### 3. Psychic Causality {-}
 
 - The third core assumption of psychodynamic theory is that nothing in mental life happens by chance—that there is no such thing as a random thought, feeling, motive, or behaviour.
 - This has come to be known as the *principle of psychic causality*, and though few psychologists accept the principle of psychic causality precisely as psychoanalysts conceive it, most theorists and researchers agree that thoughts, motives, emotional responses, and expressed behaviours do not arise randomly, but always stem from some combination of identifiable biological and psychological processes (Elliott, 2002; Robinson & Gordon, 2011).
 
-## The Evolution of Psychodynamic Theory
+***
+
+## The Evolution of Psychodynamic Theory {.tabset}
 
 - Freud’s background in neurology is the basis for the first incarnation of psychoanalytic theory being regarded as primarily biological.
 - Freud set out to explain psychological phenomena in terms that could be linked to neurological functioning as it was understood in his day.
@@ -60,6 +59,8 @@ The core assumptions of the psychodynamic framework are unique from the componen
 - The terms conscious, preconscious, and unconscious continue to be used today and research has provided some support for Freud’s thoughts regarding conscious and preconscious processing.
 - However, the idea of a Freudian unconscious repository of repressed wishes and impulses remains controversial.
 
+***
+
 ### The Psychosexual Stage Model
 
 - The psychosexual stage model proposed by Freud in 1905 argues that human personality development progresses through a sequence of stages (driven by sexual and aggressive energy (libido)), each with its own unique challenge and mode of sexual gratification from infancy to adulthood.
@@ -67,6 +68,8 @@ The core assumptions of the psychodynamic framework are unique from the componen
 - Each stage is marked by the appearance of a new erogenous zone (an area of the body that is particularly sensitive to sexual stimulation) and is associated with a specific conflict that must be resolved.
 - According to the model, if the individual experiences trauma or fixates at any of the stages, this can result in the development of certain personality traits and psychological disorders.
 - The psychosexual stage model and its relationship to personality development remain a significant part of psychoanalytic theory.
+
+***
 
 ### The Structural Model
 
@@ -76,21 +79,24 @@ The core assumptions of the psychodynamic framework are unique from the componen
 - The superego is the moral component of the psyche, which internalizes the values and norms of society and provides a sense of right and wrong.
 - According to the structural model, the dynamic interplay between the id, ego, and superego results in the development of the individual’s personality and behaviour.
 
-### The Ego and its Defences
+***
+
+### The Ego and its Defences {-}
 
 Common Ego Defences in Psychodynamic Theory
 
-- *Repression*: The unconscious removal of upsetting thoughts and feelings from conscious awareness. Example: A person blocks out memories of childhood abuse.
-- *Denial*: The conscious ignoring the implications of a painful event. Example: A person with a substance abuse problem says "I'm fine—even though people complain about my drinking, I never miss a day of work."
-- *Projection*: Attributing one's own unacceptable thoughts or feelings to others. Example: A person who has aggressive impulses accuses others of being hostile.
-- *Displacement*: Shifting one's emotional responses from a threatening target to a less threatening substitute. Example: A person who is angry with their boss takes out their frustration on their spouse.
-- *Regression*: Reverting to an earlier stage of development in response to stress. Example: An adult who is feeling overwhelmed may start sucking their thumb.
-- *Rationalization*: Offering self-justifying explanations in place of the real reasons for one's behavior. Example: A person who was fired for poor performance says that the job wasn't a good fit for them anyway.
-- *Sublimation*: Channelling unacceptable impulses into socially acceptable behavior. Example: A person who has aggressive impulses becomes a professional boxer.
+- **Repression**: The unconscious removal of upsetting thoughts and feelings from conscious awareness. Example: A person blocks out memories of childhood abuse.
+- **Denial**: The conscious ignoring the implications of a painful event. Example: A person with a substance abuse problem says "I'm fine—even though people complain about my drinking, I never miss a day of work."
+- **Projection**: Attributing one's own unacceptable thoughts or feelings to others. Example: A person who has aggressive impulses accuses others of being hostile.
+- **Displacement**: Shifting one's emotional responses from a threatening target to a less threatening substitute. Example: A person who is angry with their boss takes out their frustration on their spouse.
+- **Regression**: Reverting to an earlier stage of development in response to stress. Example: An adult who is feeling overwhelmed may start sucking their thumb.
+- **Rationalization**: Offering self-justifying explanations in place of the real reasons for one's behavior. Example: A person who was fired for poor performance says that the job wasn't a good fit for them anyway.
+- **Sublimation**: Channelling unacceptable impulses into socially acceptable behavior. Example: A person who has aggressive impulses becomes a professional boxer.
 - These are just a few of the many ego defenses that have been identified in psychodynamic theory. The use of these defences is seen as a way for the ego to manage anxiety and protect itself from stress, but at the same time, they can also lead to the distorting of reality and the perpetuation of problematic behavior patterns.
 
+***
 
-## Psychodynamic Theories: Where Are We Now?
+## Psychodynamic Theories: Where Are We Now? {.tabset}
 
 Empirical Testing of Psychodynamic Concepts: Research has been conducted to empirically test psychodynamic concepts and theories, such as the concept of transference, the role of unconscious processes in personality, and the effects of childhood experiences on adult behavior. This research has provided some support for psychodynamic concepts, but it has also led to modifications and revisions of these concepts.
 
@@ -106,6 +112,8 @@ Neuroscience and Psychodynamics: Advances in neuroimaging and neuropsychology ha
 - Also emphasizes the importance of the interpersonal context in shaping personality development. This means that relationships, rather than individual factors, are seen as the key drivers of personality development and change.
 - Overall, object relations theory offers a nuanced and sophisticated perspective on the development of personality, recognizing the importance of both early childhood experiences and ongoing relationships in shaping the self and personality.
 
+***
+
 ### Empirical Research on Psychodynamic Theories
 
 - Research has been conducted to empirically test psychodynamic concepts and theories, such as the concept of transference, the role of unconscious processes in personality, and the effects of childhood experiences on adult behavior.
@@ -116,13 +124,19 @@ Neuroscience and Psychodynamics: Advances in neuroimaging and neuropsychology ha
 - In particular, researchers are exploring how cultural and ethnic differences affect the way people experience and express emotions, relationships, and psychological distress.
 - Advances in neuroscience have created new opportunities and challenges for psychodynamic theory. The increasing ability to measure brain activity has created the possibility of gaining new insights into unconscious mental processes, including the workings of the ego, the id, and the superego. However, neuroscience has also created challenges for psychodynamic theory, because it has revealed that some traditional psychoanalytic concepts, such as the notion that the unconscious is inaccessible to conscious awareness, may be too simplistic (Kihlstrom, 2010). Nonetheless, the integration of psychodynamic theory with neuroscience has the potential to advance our understanding of mental processes, personality development, and the treatment of psychological disorders.
 
+***
+
 ### Psychoanalysis and Culture
 
 The influence of culture on psychoanalytic theory has been recognized and studied. Cultural values, beliefs and norms can shape the way psychoanalytic concepts are understood and applied.
 
+***
+
 ### Neuroscience and Psychodynamics
 
 Advances in neuroimaging and neuropsychology have opened up new opportunities to explore the relationship between brain and behavior, and the role of unconscious mental processes in personality. However, the relationship between psychodynamics and neuroscience is still being explored, and the field continues to face challenges in integrating these two perspectives.
+
+***
 
 ### The Opportunities and Challenges of Neuroscience
 
@@ -131,6 +145,8 @@ Advances in neuroimaging and neuropsychology have opened up new opportunities to
 - Despite these advancements, there are still challenges in the integration of psychodynamic and neuroscience perspectives, such as the different theoretical frameworks and languages used in both fields.
 - The integration of psychodynamic principles with findings from neuroscience continues to offer a promising direction for future research in the field of psychology.
 
+***
+
 ### Looking Ahead: Psychodynamic Theory in the 21st Century (and Beyond) {-}
 
 - The psychodynamic perspective has been a major force in psychology for more than a century and has had a lasting impact on the field.
@@ -138,9 +154,9 @@ Advances in neuroimaging and neuropsychology have opened up new opportunities to
 - The theory continues to be relevant in addressing a wide range of topics such as normal and pathological functioning, motivation and emotion, childhood and adulthood, individual and culture.
 - The integration of psychodynamic concepts with findings from neuroscience has also led to the development of neuropsychoanalysis, which has further expanded our understanding of human behavior and mental functioning. Overall, the psychodynamic perspective offers a comprehensive and integrative approach to understanding human personality and behavior, making it a valuable contribution to the field of psychology.
 
-## Personality Traits {.tabset}
+***
 
-### Introduction
+## Personality Traits {.tabset}
 
 - The trait approach to personality psychology aims to understand individual differences in personality by focusing on personality traits, which are basic dimensions along which people differ.
 - Traits are thought to be consistent, stable, and reflective of individual differences.
@@ -161,6 +177,8 @@ Advances in neuroimaging and neuropsychology have opened up new opportunities to
 - For instance, Conscientiousness has been found to predict success in college, job performance, and health.
 - There is growing interest in personality psychology among psychologists who work in applied settings like health psychology and organizational psychology.
 
+***
+
 ### Facets of Traits (Subtraits)
 
 - The Big Five traits are a widely accepted framework for summarizing a person's personality.
@@ -170,6 +188,8 @@ Advances in neuroimaging and neuropsychology have opened up new opportunities to
 - Different facets within a trait tend to go together and can be used to predict how a person might behave in different situations.
 - The list of facets is not universally accepted, and different researchers may propose different lists. Nevertheless, facets provide valuable information and add to our understanding of a person's personality beyond just their Big Five trait scores.
 
+***
+
 ### Other Traits Beyond the Five-Factor Model
 
 -Not all researchers agree on the number and composition of personality traits, and there have been other models proposed with different traits.
@@ -177,6 +197,8 @@ Advances in neuroimaging and neuropsychology have opened up new opportunities to
 - The HEXACO model adds Honesty-Humility as a sixth dimension of personality.
 - Despite the popularity of the Big Five, there are still debates on the exact number and composition of the traits that are most important in understanding personality.
 - Additionally, there are many other traits that have been studied by researchers in the field of personality psychology that are not included in comprehensive models like the Big Five.
+
+***
 
 ### The Person-Situation Debate and Alternatives to the Trait Perspective {-}
 
@@ -187,9 +209,9 @@ Advances in neuroimaging and neuropsychology have opened up new opportunities to
 - Personality traits still provide an indication of how people will act on average, but they are not always good predictors of specific behavior in a given situation.
 - Most modern personality researchers acknowledge the value of both broad personality traits and narrower units studied by Mischel.
 
-## Personality Assessment {.tabset}
+***
 
-### Introduction
+## Personality Assessment {.tabset}
 
 - The study of personality is diverse and encompasses a broad range of traits and characteristics.
 - Different theoretical models have led to different approaches for measuring these characteristics.
@@ -197,8 +219,6 @@ Advances in neuroimaging and neuropsychology have opened up new opportunities to
 - *Psychodynamic* models suggest that unconscious processes drive behaviour, so researchers adopt indirect approaches to identify these factors.
 
 ### Objective Tests
-
-#### Definition
 
 - Objective tests have several advantages in personality assessment:
   - Relatively inexpensive and easy to administer, 
@@ -263,7 +283,3 @@ Advances in neuroimaging and neuropsychology have opened up new opportunities to
 - This approach offers several advantages, such as avoiding response biases and studying people in their daily lives.
 - However, it is more labour-intensive than other methods and generates a large set of data that must be scored reliably.
 - Also, the small samples of behavior collected may not reflect a person's true characteristics accurately, as they can be influenced by transient factors such as a participant's level of stress, and their quality of sleep the previous night.
-
-
-
-

@@ -137,3 +137,133 @@ Advances in neuroimaging and neuropsychology have opened up new opportunities to
 - Despite criticism and controversy, the psychodynamic perspective has been able to evolve and adapt to new ideas, findings, and social forces.
 - The theory continues to be relevant in addressing a wide range of topics such as normal and pathological functioning, motivation and emotion, childhood and adulthood, individual and culture.
 - The integration of psychodynamic concepts with findings from neuroscience has also led to the development of neuropsychoanalysis, which has further expanded our understanding of human behavior and mental functioning. Overall, the psychodynamic perspective offers a comprehensive and integrative approach to understanding human personality and behavior, making it a valuable contribution to the field of psychology.
+
+## Personality Traits {.tabset}
+
+### Introduction
+
+- The trait approach to personality psychology aims to understand individual differences in personality by focusing on personality traits, which are basic dimensions along which people differ.
+- Traits are thought to be consistent, stable, and reflective of individual differences.
+- Gordon Allport and Henry Odbert's lexical hypothesis guided their approach to finding the major traits by searching dictionaries for personality descriptors and using statistical techniques to determine which words went together.
+- The goal was to identify the basic dimensions underlying the many words we use to describe people and reduce the number of traits.
+- The trait approach has been successful in identifying the five-factor model or the "big five" traits:
+  - Extroversion,
+  - Conscientiousness,
+  - Agreeableness,
+  - Neuroticism, and
+  - Openness to Experience.
+
+### The Five-Factor Model of Personality
+
+- The Big Five or Five-Factor Model of personality is the most widely accepted system for describing personality traits.
+- The five traits are Openness, Conscientiousness, Extroversion, Agreeableness, and Neuroticism (OCEAN).
+- These traits describe stable patterns of behavior that persist over long periods of time and have broad-ranging consequences for various areas of life.
+- For instance, Conscientiousness has been found to predict success in college, job performance, and health.
+- There is growing interest in personality psychology among psychologists who work in applied settings like health psychology and organizational psychology.
+
+### Facets of Traits (Subtraits)
+
+- The Big Five traits are a widely accepted framework for summarizing a person's personality.
+- They are, however, considered broad and do not capture the complexity and specificity of an individual's behavior and thoughts.
+- To address this, lower-level units of personality known as facets have been proposed.
+- Facets provide more specific descriptions of a person's characteristics and are useful in providing a more nuanced understanding of an individual's personality.
+- Different facets within a trait tend to go together and can be used to predict how a person might behave in different situations.
+- The list of facets is not universally accepted, and different researchers may propose different lists. Nevertheless, facets provide valuable information and add to our understanding of a person's personality beyond just their Big Five trait scores.
+
+### Other Traits Beyond the Five-Factor Model
+
+-Not all researchers agree on the number and composition of personality traits, and there have been other models proposed with different traits.
+- For example, Hans Eysenck proposed that Extraversion and Neuroticism are the two most important traits and linked them to differences in people's biology.
+- The HEXACO model adds Honesty-Humility as a sixth dimension of personality.
+- Despite the popularity of the Big Five, there are still debates on the exact number and composition of the traits that are most important in understanding personality.
+- Additionally, there are many other traits that have been studied by researchers in the field of personality psychology that are not included in comprehensive models like the Big Five.
+
+### The Person-Situation Debate and Alternatives to the Trait Perspective {-}
+
+- The person-situation debate in personality psychology arose from the publication of Walter Mischel's book "Personality and Assessment" in 1968.
+- Mischel challenged the traditional trait perspective of personality by suggesting that people's behavior is not consistently consistent across different situations.
+- He believed that psychologists should focus on people's unique reactions to specific situations rather than studying broad, context-free traits.
+- Subsequent research to address this theory showed that on average, the effect of the situation is about as large as that of personality traits.
+- Personality traits still provide an indication of how people will act on average, but they are not always good predictors of specific behavior in a given situation.
+- Most modern personality researchers acknowledge the value of both broad personality traits and narrower units studied by Mischel.
+
+## Personality Assessment {.tabset}
+
+### Introduction
+
+- The study of personality is diverse and encompasses a broad range of traits and characteristics.
+- Different theoretical models have led to different approaches for measuring these characteristics.
+- *Humanistic* models focus on individuals' goals and motivations, so asking them directly is a good approach.
+- *Psychodynamic* models suggest that unconscious processes drive behaviour, so researchers adopt indirect approaches to identify these factors.
+
+### Objective Tests
+
+#### Definition
+
+- Objective tests have several advantages in personality assessment:
+  - Relatively inexpensive and easy to administer, 
+  - Can be administered to large groups of people, and 
+  - Are usually highly reliable (i.e., they provide consistent scores over time).
+- However, objective tests have certain limitations as well:
+  - Limited in their ability to capture the complexity of individual differences,
+  - May not always provide a complete picture of an individual's personality,
+  - Can be affected by social desirability bias (where people tend to respond in a way that they believe is socially desirable or acceptable), rather than providing a true representation of their personality.
+- Despite these limitations, objective tests continue to be widely used in personality assessment due to their ease of use, reliability, and versatility.
+
+### Basic Types of Objective Tests
+
+#### Self-Report Measures
+
+- Objective personality tests are widely used to assess personality, and can be self-administered or performed by a psychologist.
+- Self-report tests, in which individuals describe themselves, are the most widely used type of objective test.
+- They offer advantages such as:
+  - cost-effectiveness, and
+  - simplicity and access to a wealth of information.
+- Self-reported personality has been shown to have significant validity in relation to various important outcomes, such as academic and job performance, occupational attainment, divorce, and mortality, as well as links to psychopathology.
+- Self-reported personality, however, is limited by:
+  - The possibility of socially desirable responding,
+  - Self-enhancement bias, and
+  - The reference group effect.
+
+#### Informant Ratings
+
+- Informant personality ratings are a method of assessing someone's personality where the information is gathered from a person who knows the person being rated well, such as a parent, teacher, spouse, friend, or boss.
+- These ratings are particularly useful when self-ratings are not possible or not reliable.
+- Informant ratings offer advantages such as:
+  - Being based on the informant's observation of the person's behaviour, and
+  - Being less likely to be distorted by defensiveness.
+- Informant ratings can also be limited by:
+  - The amount of information the informant has about the person, and
+  - Are subject to response biases (the reference group effect, and the tendency for informants to produce overly favourable ratings).
+  
+### Other Ways of Classifying Objective Tests
+
+- Personality tests differ on two dimensions:
+  - *Comprehensiveness* (measure a single attribute (e.g. Toronto Alexithymia Scale, Rosenberg Self-Esteem Scale), and
+  - *Breadth of the target characteristics* (e.g. California Psychological Inventory, HEXACO Personality Inventory, Multidimensional Personality Questionnaire, NEO Personality Inventory-3, Personality Research Form, 16PF).
+- There are different levels of breadth or generality at which personality characteristics can be classified.
+- Some models emphasize broad, "big" traits, while others focus on more specific characteristics.
+- Some popular personality instruments assess only broad traits, while others assess a large number of more specific characteristics.
+- Some instruments are explicitly designed to provide coverage of both general and specific trait characteristics.
+
+### Projective and Implicit Tests
+
+- *Projective* tests are based on the belief that unconscious needs, feelings, and experiences can be revealed by having people describe or interpret ambiguous stimuli.
+- Examples of projective tests include the Rorschach Inkblot Test and the Thematic Apperception Test (TAT).
+- Projective tests can be cumbersome to administer and score, but they can provide information about implicit motives that is not easily obtained from objective measures.
+- The TAT has shown significant validity in measuring the need for achievement, while the validity of the Rorschach has been a matter of controversy.
+
+- *Implicit* measures of personality are based on the idea that people form automatic or implicit associations between certain concepts based on their previous experience and behaviour.
+- These measures assess the strength of associations between concepts and can be used to predict behavior, even after controlling for scores on objective measures of personality.
+- While validity evidence for these measures is still limited, the results to date are promising.
+
+### Behavioral and Performance Measures
+
+- Behavioural measures of personality involve directly observing and measuring people's behaviour in natural settings.
+- This approach offers several advantages, such as avoiding response biases and studying people in their daily lives.
+- However, it is more labour-intensive than other methods and generates a large set of data that must be scored reliably.
+- Also, the small samples of behavior collected may not reflect a person's true characteristics accurately, as they can be influenced by transient factors such as a participant's level of stress, and their quality of sleep the previous night.
+
+
+
+
